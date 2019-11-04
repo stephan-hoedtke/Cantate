@@ -1,0 +1,40 @@
+"Cantatas": [
+    {
+        "BWV": "167",
+        "Year": "1734",
+        "Title": "Ihr Menschen, rühmet Gottes Liebe",
+        "Tracks": [
+            {
+                "No": 1,
+                "Form": "Aria",
+                "Singer": "Tenor",
+                "Title": "Ihr Menschen, rühmet Gottes Liebe",
+            },
+            {
+                "No": 2,
+                "Form": "Recitativo",
+                "Singer": "Alt",
+                "Title": "Gelobet sei der Herr Gott Israel"
+            },
+            {
+                "No": 3,
+                "Form": "Aria (Duetto)",
+                "Singer": "Sopran, Alt",
+                "Title": "Gottes Wort, das trüget nicht"
+            },
+            {
+                "No": 4,
+                "Form": "Recitativo",
+                "Singer": "Bass",
+                "Title": "Des Weibes Samen kam"
+            },
+            {
+                "No": 5,
+                "Form": "Choral",
+                "Singer": "Chor",
+                "Title": "Sei Lob und Preis mit Ehren"
+            },
+        ]
+    }
+]
+

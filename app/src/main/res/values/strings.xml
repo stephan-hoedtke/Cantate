@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cantate</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_today">TODAY</string>
+    <string name="default_sunday">SUNDAY NAME</string>
+    <string name="default_cantatas_for_sunday">BWV 123 \nBWV 234 \nBWV 345</string>
+    <string name="label_button_backwards"><![CDATA[<<]]></string>
+    <string name="label_button_forwards"><![CDATA[>>]]></string>
+    <string name="label_bwv">BWV</string>
+    <string name="default_bwv">127a</string>
+    <string name="default_title">Wohin sollen meine Augen sehen</string>
+    <string name="label_liturgical_year">Lesejahr</string>
+    <string name="label_introitus">Introitus</string>
+    <string name="label_communio">Communio</string>
+</resources>
+

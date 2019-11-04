@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="occasion"
+            type="com.stho.cantate.Sunday" />
+        <variable
+            name="sunday"
+            type="com.stho.cantate.EvangelicSunday" />
+        <variable
+            name="dominica"
+            type="com.stho.cantate.CatholicDominica" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewToday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:text="@{occasion.getDateAsString(), default=`Mittwoch 8. Okt. 2019`}"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/textViewSunday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:text="@{occasion.getName(), default=`3. Sonntag nach Trinitatis`}"
+            app:layout_constraintTop_toBottomOf="@id/textViewToday"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewCatholic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:elevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:layout_constraintTop_toBottomOf="@id/textViewSunday">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.6" />
+
+
+                <TextView
+                    android:id="@+id/textViewLiturgicalYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:textColor="@color/colorFaint"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:text="@{occasion.getCatholicLiturgicalYear(), default=`A`}"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewTempus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:textColor="@color/colorFaint"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/textViewLiturgicalYear"
+                    android:text="@{dominica.getTempus(), default=`Tempus Per Annum`}"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewDominica"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    app:layout_constraintTop_toTopOf="@id/textViewTempus"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/guideline"
+                    android:text="@{dominica.getName(), default=`Hebdomada I Adventus`}"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewIntroitus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/textViewDominica"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textColor="@color/colorIntroitus"
+                    android:text="@{dominica.getIntroitus(occasion.getCatholicLiturgicalYear()), default=`Ad te levavi anima mea`}"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewCommunio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/textViewIntroitus"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textColor="@color/colorCommunio"
+                    android:text="@{dominica.getCommunio(occasion.getCatholicLiturgicalYear()), default=`Lux aeterna luceat eis Domine et sanctus tuus in aeternum quia pius es`}"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintVertical_weight="1"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/cardViewCatholic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:scrollbars="vertical"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

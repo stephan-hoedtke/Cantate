@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="cantate"
+            type="com.stho.cantate.Cantate" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:adjustViewBounds="true">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewCantate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:elevation="3dp"
+            app:cardCornerRadius="3dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/labelBWV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/label_bwv"
+                    android:textColor="@color/colorIntroitus"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewBWV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintTop_toTopOf="@id/labelBWV"
+                    app:layout_constraintStart_toEndOf="@id/labelBWV"
+                    android:text="@{cantate.getBWV(), default=`127a`}"
+                    android:textColor="@color/colorIntroitus"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/labelBWV"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="@{cantate.getTitle(), default=`Wohin sollen meine Augen schauen`}"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewVolume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    app:layout_constraintTop_toTopOf="@id/labelBWV"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:text="@{cantate.getVolume(), default=`26`}"
+                    android:textColor="@color/colorFaint"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewOriginalDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="21dp"
+                    app:layout_constraintTop_toTopOf="@id/textViewBWV"
+                    app:layout_constraintStart_toEndOf="@id/textViewBWV"
+                    android:text="@{cantate.getOriginalDate(), default=`30. September 1965`}"
+                    android:textColor="@color/colorOriginalDate"
+                    />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</layout>
