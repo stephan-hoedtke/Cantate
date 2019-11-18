@@ -11,17 +11,12 @@ public class Cantate {
     private String originalDate;
     private String town;
     private String link;
+    private ArrayList<String> remarks = new ArrayList<>();
+    private @SundayAnnotation.Sunday String occasion;
 
     Cantate(String bwv) {
         this.bwv = bwv;
     }
-
-    Cantate(String bwv, String title) {
-        this.bwv = bwv;
-        this.title = title;
-    }
-
-
 
     public String getBWV() { return bwv; }
     public String getTitle() {
@@ -32,20 +27,15 @@ public class Cantate {
     public String getOriginalDate() { return originalDate; }
     public String getTown() { return town; }
     public String getLink() { return link; }
+    public ArrayList<String> getRemarks() { return remarks; }
+    public @SundayAnnotation.Sunday String getOccasion() { return occasion; }
 
-    void setVolume(String volume) {
-        this.volume = volume;
-    }
-
-    void addTrack(String track) {
-        this.tracks.add(track);
-    }
-
+    void setVolume(String volume) { this.volume = volume; }
+    void addTrack(String track) { this.tracks.add(track); }
     void setOriginalDate(String date) { this.originalDate = date; }
-
     void setTown(String town) { this.town = town; }
-
     public void setLink(String link) { this.link = link; }
-
     void setTitle(String title) { this.title = title; }
+    void addRemark(String remark) { this.remarks.add(remark); }
+    void setOccasion(@SundayAnnotation.Sunday String occasion) { this.occasion = occasion; }
 }

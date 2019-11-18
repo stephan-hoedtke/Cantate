@@ -13,8 +13,7 @@ import java.util.HashMap;
 
 class Data {
 
-    private final HashMap<String, Cantate> cantatas = new HashMap<>();
-    private final CantatasLookupTables cantatasLookupTables = new CantatasLookupTables();
+    private final Cantatas cantatas = new Cantatas();
     private final HashMap<String, EvangelicSunday> evangelic = new HashMap<>();
     private final HashMap<String, CatholicDominica> catholic = new HashMap<>();
     private final SparseArray<Year> years = new SparseArray<>(); // year --> Year
@@ -87,21 +86,14 @@ class Data {
     }
 
     ArrayList<Cantate> getCantatasFor(Sunday sunday) {
-        ArrayList<Cantate> array = new ArrayList<>();
         if (sunday != null) {
             EvangelicSunday evangelicSunday = sunday.getEvangelicSunday();
             if (evangelicSunday != null) {
                 @SundayAnnotation.Sunday String key = evangelicSunday.getKey();
-                for (String bwv : cantatasLookupTables.get(key)) {
-                    Cantate currentCantate = cantatas.get(bwv);
-                    if (currentCantate == null) {
-                        currentCantate = new Cantate(bwv);
-                    }
-                    array.add(currentCantate);
-                }
+                return cantatas.getCantatasFor(key);
             }
         }
-        return array;
+        return null;
     }
 }
 

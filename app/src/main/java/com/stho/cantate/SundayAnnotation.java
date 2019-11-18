@@ -87,6 +87,8 @@ public class SundayAnnotation {
     static final String REFORMATION                = "REFORMATION";                     // 31. Oct.
     static final String FUNERAL                    = "FUNERAL";
     static final String WEDDING                    = "WEDDING";
+    static final String UNKNOWN                    = "UNKNOWN";
+    static final String RATSWAHL                   = "RATSWAHL";
     static final String OTHER                      = "OTHER";
 
 
@@ -170,6 +172,8 @@ public class SundayAnnotation {
             WEDDING,
             FUNERAL,
             OTHER,
+            RATSWAHL,
+            UNKNOWN,
     })
     @Retention(RetentionPolicy.SOURCE)
     public @interface Sunday {}

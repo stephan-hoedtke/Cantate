@@ -11,9 +11,9 @@ import java.util.Map;
  */
 class CantatasXmlParser {
 
-    private final Map<String, Cantate> cantatas;
+    private final Cantatas cantatas;
 
-    CantatasXmlParser(Map<String, Cantate> cantatas) {
+    CantatasXmlParser(Cantatas cantatas) {
         this.cantatas = cantatas;
     }
 
@@ -30,13 +30,12 @@ class CantatasXmlParser {
                     if (isCantata(tag)) {
                         String bwv = getAttributeValue(parser, "BWV");
                         String volume = getAttributeValue(parser, "Volume");
+                        String occasion = getAttributeValue(parser, "Occasion");
                         if (bwv != null) {
-                            currentCantate = cantatas.get(bwv);
-                            if (currentCantate == null) {
-                                currentCantate = new Cantate(bwv);
-                                cantatas.put(bwv, currentCantate);
-                            }
+                            currentCantate = cantatas.getCantate(bwv);
                             currentCantate.setVolume(volume);
+                            currentCantate.setOccasion(occasion);
+                            cantatas.setOccasion(occasion, bwv);
                         }
                     }
                     break;
@@ -53,6 +52,8 @@ class CantatasXmlParser {
                             currentCantate.setTown(parser.getText());
                         } else if (isLink(tag)) {
                             currentCantate.setLink(parser.getText());
+                        } else if (isRemark(tag)) {
+                            currentCantate.addRemark(parser.getText());
                         }
                     }
                     break;
@@ -66,30 +67,13 @@ class CantatasXmlParser {
         }
     }
 
-    private boolean isCantata(String name) {
-        return ("Cantata".equalsIgnoreCase(name));
-    }
-
-    private boolean isTitle(String tag) {
-        return ("Title".equalsIgnoreCase(tag));
-    }
-
-    private boolean isTrack(String tag) {
-        return ("Track".equalsIgnoreCase(tag));
-    }
-
-    private boolean isOriginalDate(String tag) {
-        return ("OriginalDate".equalsIgnoreCase(tag));
-    }
-
-    private boolean isTown(String tag) {
-        return ("Town".equalsIgnoreCase(tag));
-    }
-
-    private boolean isLink(String tag) {
-        return ("Link".equalsIgnoreCase(tag));
-    }
-
+    private boolean isCantata(String name) { return "Cantata".equalsIgnoreCase(name); }
+    private boolean isTitle(String tag) { return "Title".equalsIgnoreCase(tag); }
+    private boolean isTrack(String tag) { return "Track".equalsIgnoreCase(tag); }
+    private boolean isOriginalDate(String tag) { return "OriginalDate".equalsIgnoreCase(tag); }
+    private boolean isTown(String tag) { return "Town".equalsIgnoreCase(tag); }
+    private boolean isLink(String tag) { return "Link".equalsIgnoreCase(tag); }
+    private boolean isRemark(String tag) { return "Remark".equalsIgnoreCase(tag); }
 
     private String getAttributeValue(XmlPullParser parser, String attributeName) {
         for (int i = 0; i < parser.getAttributeCount(); i++) {
