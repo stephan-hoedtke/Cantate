@@ -4,7 +4,7 @@
 <!-- See: https://www.bach-cantatas.com/LCY/Lutheran-2016-2020.htm -->
 <Cantatas>
   <!-- CHURCH CANTATAS -->
-  <Cantata BWV="1" Volume="12" Occasion="ANNUNCIATION_MARIAE">
+  <Cantata BWV="1" Volume="12" Occasion="ANNUNCIATION">
     <Title>Wie schön leuchtet der Morgenstern</Title>
     <Original>
       <OriginalDate>1725-03-25</OriginalDate>
@@ -19,7 +19,7 @@
       <Track No="6">6. Choral: Wie bin ich doch so herzlich froh</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="2" Volume="28" Occasion="SUNDAY_2_AFTER_TRINITY">
+  <Cantata BWV="2" Volume="28" Occasion="TRINITY_II">
     <Title>Ach Gott, vom Himmel sieh darein</Title>
     <Original>
       <OriginalDate>1724-06-18</OriginalDate>
@@ -34,8 +34,8 @@
       <Track No="6">6. Choral: Das wollst du, Gott, bewahren rein</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="3" Volume="5" Occasion="SUNDAY_AFTER_EPIPHANY_2">
-    <Title>Ach Gott, wie manches Herzeleid I</Title>
+  <Cantata BWV="3" Volume="5" Occasion="EPIPHANY_II">
+    <Title>Ach Gott, wie manches Herzeleid</Title>
     <Original>
       <OriginalDate>1725-01-14</OriginalDate>
       <Town>Leipzig</Town>
@@ -66,7 +66,7 @@
       <Track No="8">8. Versus VII (Choral): Wir essen und leben wohl</Track>
     </Tracks>
   </Cantata>
-s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
+s  <Cantata BWV="5" Volume="46" Occasion="TRINITY_XIX">
     <Title>Wo soll ich fliehen hin</Title>
     <Original>
       <OriginalDate>1724-10-15</OriginalDate>
@@ -114,7 +114,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="7">7. Choral: Das Aug allein das Wasser sieht</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="8" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
+  <Cantata BWV="8" Volume="43" Occasion="TRINITY_XVI">
     <Title>Liebster Gott, wenn werd ich sterben?</Title>
     <Original>
       <OriginalDate>1724-09-24</OriginalDate>
@@ -129,7 +129,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="6">6. Choral: Herrscher über Tod und Leben</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="9" Volume="32" Occasion="SUNDAY_6_AFTER_TRINITY">
+  <Cantata BWV="9" Volume="32" Occasion="TRINITY_VI">
     <Title>Es ist das Heil uns kommen her</Title>
     <Original>
       <OriginalDate>1732 - 1735</OriginalDate>
@@ -145,7 +145,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="7">7. Choral: Ob sich’s anließ, als wollt er nicht</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="10" Volume="28" Occasion="VISITATION_MARIAE">
+  <Cantata BWV="10" Volume="28" Occasion="VISITATION">
     <Title>Meine Seel erhebt den Herren</Title>
     <Original>
       <OriginalDate>1724-07-02</OriginalDate>
@@ -161,7 +161,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="7">7. Choral: Lob und Preis sei Gott dem Vater und dem Sohn</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="11" Volume="20" Occasion="ASCENSION_DAY">
+  <Cantata BWV="11" Volume="20" Occasion="ASCENSION">
     <Title>Lobet Gott in seinen Reichen</Title>
     <Original>
       <OriginalDate>1735-05-19</OriginalDate>
@@ -197,7 +197,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="7">7. Choral: Was Gott tut, das ist wohlgetan</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="13" Volume="5" Occasion="SUNDAY_AFTER_EPIPHANY_2">
+  <Cantata BWV="13" Volume="5" Occasion="EPIPHANY_II">
     <Title>Meine Seufzer, meine Tränen</Title>
     <Original>
       <OriginalDate>1726-01-20</OriginalDate>
@@ -212,7 +212,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="6">6. Choral: So sei nun, Seele</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="14" Volume="7" Occasion="SUNDAY_AFTER_EPIPHANY_4">
+  <Cantata BWV="14" Volume="7" Occasion="EPIPHANY_IV">
     <Title>Wär Gott nicht mit uns diese Zeit</Title>
     <Original>
       <OriginalDate>1735-01-30</OriginalDate>
@@ -242,7 +242,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="6">6. Choral: All solch dein Güt wir preisen</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="17" Volume="40" Occasion="SUNDAY_14_AFTER_TRINITY">
+  <Cantata BWV="17" Volume="40" Occasion="TRINITY_XIV">
     <Title>Wer Dank opfert, der preiset mich</Title>
     <Original>
       <OriginalDate>1726-09-22</OriginalDate>
@@ -288,7 +288,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="7">7. Choral: Laß dein’ Engel mit mir fahren</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="20" Volume="27" Occasion="SUNDAY_1_AFTER_TRINITY">
+  <Cantata BWV="20" Volume="27" Occasion="TRINITY_I">
     <Title>O Ewigkeit, du Donnerwort I</Title>
     <Original>
       <OriginalDate>1724-06-11</OriginalDate>
@@ -308,7 +308,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="11">11. Choral: O Ewigkeit, du Donnerwort</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="21" Volume="29" Occasion="SUNDAY_3_AFTER_TRINITY">
+  <Cantata BWV="21" Volume="29" Occasion="TRINITY_III">
     <Title>Ich hatte viel Bekümmernis</Title>
     <Original>
       <OriginalDate>1714-06-17</OriginalDate>
@@ -328,7 +328,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="11">11. Coro: Das Lamm, das erwürget ist</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="22" Volume="11" Occasion="QUINQUAGESIMA_ESTOMIHI">
+  <Cantata BWV="22" Volume="11" Occasion="ESTOMIHI">
     <Title>Jesus nahm zu sich die Zwölfe</Title>
     <Original>
       <OriginalDate>1723-02-07</OriginalDate>
@@ -343,7 +343,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="5">5. Choral: Ertöt uns durch dein Güte</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="23" Volume="11" Occasion="QUINQUAGESIMA_ESTOMIHI">
+  <Cantata BWV="23" Volume="11" Occasion="ESTOMIHI">
     <Title>Du wahrer Gott und Davids Sohn</Title>
     <Original>
       <OriginalDate>1723-02-07</OriginalDate>
@@ -357,7 +357,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="4">4. Choral: Christe, du Lamm Gottes</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="24" Volume="30" Occasion="SUNDAY_4_AFTER_TRINITY">
+  <Cantata BWV="24" Volume="30" Occasion="TRINITY_IV">
     <Title>Ein ungefärbt Gemüte</Title>
     <Original>
       <OriginalDate>1723-06-20</OriginalDate>
@@ -372,7 +372,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="6">6. Choral: O Gott, du frommer Gott</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="25" Volume="40" Occasion="SUNDAY_14_AFTER_TRINITY">
+  <Cantata BWV="25" Volume="40" Occasion="TRINITY_XIV">
     <Title>Es ist nichts Gesundes an meinem Leibe</Title>
     <Original>
       <OriginalDate>1723-08-29</OriginalDate>
@@ -387,7 +387,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="6">6. Choral: Ich will alle meine Tage</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="26" Volume="7" Occasion="SUNDAY_24_AFTER_TRINITY">
+  <Cantata BWV="26" Volume="7" Occasion="TRINITY_XXIV">
     <Title>Ach wie flüchtig, ach wie nichtig</Title>
     <Original>
       <OriginalDate>1724-11-19</OriginalDate>
@@ -402,7 +402,7 @@ s  <Cantata BWV="5" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
       <Track No="6">6. Choral: Ach wie flüchtig, ach wie nichtig</Track>
     </Tracks>
   </Cantata>
-s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
+s  <Cantata BWV="27" Volume="43" Occasion="TRINITY_XVI">
     <Title>Wer weiß, wie nahe mir mein Ende?</Title>
     <Original>
       <OriginalDate>1726-10-06</OriginalDate>
@@ -417,7 +417,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: Welt, ade! Ich bin dein müde</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="28" Volume="56" Occasion="SUNDAY_AFTER_CHRISTMAS">
+  <Cantata BWV="28" Volume="56" Occasion="AFTER_CHRISTMAS">
     <Title>Gottlob! nun geht das Jahr zu Ende</Title>
     <Original>
       <OriginalDate>1725-12-30</OriginalDate>
@@ -472,7 +472,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="9">9. Choral: So fahr ich hin zu Jesu Christ</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="32" Volume="4" Occasion="SUNDAY_AFTER_EPIPHANY_1">
+  <Cantata BWV="32" Volume="4" Occasion="EPIPHANY_I">
     <Title>Liebster Jesu, mein Verlangen</Title>
     <Original>
       <OriginalDate>1726-01-13</OriginalDate>
@@ -487,7 +487,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: Mein Gott, öffne mir die Pforten</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="33" Volume="39" Occasion="SUNDAY_13_AFTER_TRINITY">
+  <Cantata BWV="33" Volume="39" Occasion="TRINITY_XIII">
     <Title>Allein zu dir, Herr Jesu Christ</Title>
     <Original>
       <OriginalDate>1724-09-03</OriginalDate>
@@ -536,7 +536,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Coro: Gib, höchster Gott, auch hier dem Worte Kraft</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="35" Volume="38" Occasion="SUNDAY_12_AFTER_TRINITY">
+  <Cantata BWV="35" Volume="38" Occasion="TRINITY_XII">
     <Title>Geist und Seele wird verwirret</Title>
     <Original>
       <OriginalDate>1726-09-08</OriginalDate>
@@ -552,7 +552,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Aria (Alt): Ich wünsche nur bei Gott zu leben</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="36" Volume="52" Occasion="SUNDAY_1_IN_ADVENT">
+  <Cantata BWV="36" Volume="52" Occasion="ADVENT_I">
     <Title>Schwingt freudig euch empor</Title>
     <Original>
       <OriginalDate>1731-12-02</OriginalDate>
@@ -569,7 +569,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="8">8. Choral: Lob sei Gott, dem Vater, g’ton</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="37" Volume="20" Occasion="ASCENSION_DAY">
+  <Cantata BWV="37" Volume="20" Occasion="ASCENSION">
     <Title>Wer da gläubet und getauft wird</Title>
     <Original>
       <OriginalDate>1724-05-18</OriginalDate>
@@ -584,7 +584,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: Den Glauben mir verleihe</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="38" Volume="49" Occasion="SUNDAY_21_AFTER_TRINITY">
+  <Cantata BWV="38" Volume="49" Occasion="TRINITY_XXI">
     <Title>Aus tiefer Not schrei ich zu dir</Title>
     <Original>
       <OriginalDate>1724-10-29</OriginalDate>
@@ -599,7 +599,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: Ob bei uns ist der Sünden viel</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="39" Volume="27" Occasion="SUNDAY_1_AFTER_TRINITY">
+  <Cantata BWV="39" Volume="27" Occasion="TRINITY_I">
     <Title>Brich dem Hungrigen dein Brot</Title>
     <Original>
       <OriginalDate>1726-06-23</OriginalDate>
@@ -663,7 +663,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Choral: Verleih uns Frieden gnädiglich</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="43" Volume="20" Occasion="ASCENSION_DAY">
+  <Cantata BWV="43" Volume="20" Occasion="ASCENSION">
     <Title>Gott fähret auf mit Jauchzen</Title>
     <Original>
       <OriginalDate>1726-05-30</OriginalDate>
@@ -699,7 +699,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Choral: So sei nun, Seele, deine</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="45" Volume="34" Occasion="SUNDAY_8_AFTER_TRINITY">
+  <Cantata BWV="45" Volume="34" Occasion="TRINITY_VIII">
     <Title>Es ist dir gesagt, Mensch, was gut ist</Title>
     <Original>
       <OriginalDate>1726-08-11</OriginalDate>
@@ -715,7 +715,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Choral: Gib, dass ich tu mit Fleiß</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="46" Volume="36" Occasion="SUNDAY_10_AFTER_TRINITY">
+  <Cantata BWV="46" Volume="36" Occasion="TRINITY_X">
     <Title>Schauet doch und sehet, ob irgendein Schmerz sei</Title>
     <Original>
       <OriginalDate>1723-08-01</OriginalDate>
@@ -730,7 +730,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: O großer Gott von Treu</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="47" Volume="44" Occasion="SUNDAY_17_AFTER_TRINITY">
+  <Cantata BWV="47" Volume="44" Occasion="TRINITY_XVII">
     <Title>Wer sich selbst erhöhet, der soll erniedriget werden</Title>
     <Original>
       <OriginalDate>s1726-10-13</OriginalDate>
@@ -744,7 +744,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="5">5. Choral: Der zeitlichen Ehrn will ich gern entbehrn</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="48" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
+  <Cantata BWV="48" Volume="46" Occasion="TRINITY_XIX">
     <Title>Ich elender Mensch, wer wird mich erlösen</Title>
     <Original>
       <OriginalDate>1723-10-03</OriginalDate>
@@ -760,7 +760,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Choral: Herr Jesu Christ, einiger Trost</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="49" Volume="48" Occasion="SUNDAY_20_AFTER_TRINITY">
+  <Cantata BWV="49" Volume="48" Occasion="TRINITY_XX">
     <Title>Ich geh und suche mit Verlangen</Title>
     <Original>
       <OriginalDate>1726-11-03</OriginalDate>
@@ -785,7 +785,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="1">1. Coro: Nun ist das Heil und die Kraft</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="51" Volume="41" Occasion="SUNDAY_15_AFTER_TRINITY">
+  <Cantata BWV="51" Volume="41" Occasion="TRINITY_XV">
     <Title>Jauchzet Gott in allen Landen!</Title>
     <Original>
       <OriginalDate>1730-09-17</OriginalDate>
@@ -799,7 +799,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="5">5. Aria (Sopran): Alleluja!</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="52" Volume="51" Occasion="SUNDAY_23_AFTER_TRINITY">
+  <Cantata BWV="52" Volume="51" Occasion="TRINITY_XXIII">
     <Title>Falsche Welt, dir trau ich nicht!</Title>
     <Original>
       <OriginalDate>1726-11-24</OriginalDate>
@@ -816,7 +816,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
   </Cantata>
   <!-- BWV 53, Schlage doch, gewünschte Stunde, by Melchior Hoffmann or someone else -->
   <Cantata BWV="54" Volume="12" Occasion="OCULI">
-    <!-- Occasion="SUNDAY_7_AFTER_TRINITY" ??? > -->
+    <!-- Occasion="TRINITY_VII" ??? > -->
     <Title>Widerstehe doch der Sünde</Title>
     <Original>
       <OriginalDate>1714-07-15</OriginalDate>
@@ -830,7 +830,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
     </Tracks>
     <Link>https://en.wikipedia.org/wiki/Widerstehe_doch_der_S%C3%BCnde,_BWV_54</Link>
   </Cantata>
-  <Cantata BWV="55" Volume="50" Occasion="SUNDAY_22_AFTER_TRINITY">
+  <Cantata BWV="55" Volume="50" Occasion="TRINITY_XXII">
     <Title>Ich armer Mensch, ich Sündenknecht</Title>
     <Original>
       <OriginalDate>1726-11-17</OriginalDate>
@@ -844,7 +844,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="5">5. Choral: Bin ich gleich von dir gewichen</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="56" Volume="46" Occasion="SUNDAY_19_AFTER_TRINITY">
+  <Cantata BWV="56" Volume="46" Occasion="TRINITY_XIX">
     <Title>Ich will den Kreuzstab gerne tragen</Title>
     <Original>
       <OriginalDate>1726-10-27</OriginalDate>
@@ -875,7 +875,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="8">8. Choral: Richte dich, Liebste, nach meinem Gefallen</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="58" Volume="3" Occasion="SUNDAY_AFTER_NEW_YEAR">
+  <Cantata BWV="58" Volume="3" Occasion="AFTER_NEW_YEAR">
     <Title>Ach Gott, wie manches Herzeleid II</Title>
     <Original>
       <OriginalDate>1727-01-05</OriginalDate>
@@ -903,7 +903,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="5">5. Choral: Du heilige Brunst, süßer Trost</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="60" Volume="50" Occasion="SUNDAY_24_AFTER_TRINITY">
+  <Cantata BWV="60" Volume="50" Occasion="TRINITY_XXIV">
     <Title>O Ewigkeit, du Donnerwort II</Title>
     <Original>
       <OriginalDate>1723-11-07</OriginalDate>
@@ -917,7 +917,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="5">5. Choral: Es ist genung</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="61" Volume="52" Occasion="SUNDAY_1_IN_ADVENT">
+  <Cantata BWV="61" Volume="52" Occasion="ADVENT_I">
     <Title>Nun komm, der Heiden Heiland I</Title>
     <Original>
       <OriginalDate>1714-12-02</OriginalDate>
@@ -932,7 +932,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: Amen, Amen!</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="62" Volume="52" Occasion="SUNDAY_1_IN_ADVENT">
+  <Cantata BWV="62" Volume="52" Occasion="ADVENT_I">
     <Title>Nun komm, der Heiden Heiland II</Title>
     <Original>
       <OriginalDate>1724-12-03</OriginalDate>
@@ -1062,7 +1062,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="5">5. Coro: Wer an ihn gläubet</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="69a" Alternative="69.1" Volume="38" Occasion="SUNDAY_12_AFTER_TRINITY">
+  <Cantata BWV="69a" Alternative="69.1" Volume="38" Occasion="TRINITY_XII">
     <Title>Lobe den Herrn, meine Seele</Title>
     <Original>
       <OriginalDate>1723-08-15</OriginalDate>
@@ -1095,7 +1095,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Chorale: Es danke, Gott, und lobe dich</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="70" Alternative="70.2" Volume="53" Occasion="SUNDAY_26_AFTER_TRINITY">
+  <Cantata BWV="70" Alternative="70.2" Volume="53" Occasion="TRINITY_XXVI">
     <Title>Wachet! betet! betet! wachet!</Title>
     <Original>
       <OriginalDate>1723-11-21</OriginalDate>
@@ -1120,7 +1120,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Town>Leipzig</Town>
     </Original>
   </Cantata>
-  <Cantata BWV="70a" Alternative="70.1" Occasion="SUNDAY_2_IN_ADVENT">
+  <Cantata BWV="70a" Alternative="70.1" Occasion="ADVENT_II">
     <Title>Wachet! betet! betet! wachet!</Title>
     <Original>
       <OriginalDate>1716-12-06</OriginalDate>
@@ -1153,7 +1153,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Coro: Das neue Regiment</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="72" Volume="6" Occasion="SUNDAY_AFTER_EPIPHANY_3">
+  <Cantata BWV="72" Volume="6" Occasion="EPIPHANY_III">
     <Title>Alles nur nach Gottes Willen</Title>
     <Original>
       <OriginalDate>1726-01-27</OriginalDate>
@@ -1167,7 +1167,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="5">5. Choral: Was mein Gott will, das g’scheh allzeit</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="73" Volume="6" Occasion="SUNDAY_AFTER_EPIPHANY_3">
+  <Cantata BWV="73" Volume="6" Occasion="EPIPHANY_III">
     <Title>Herr, wie du willt, so schick’s mit mir</Title>
     <Original>
       <OriginalDate>1724-01-23</OriginalDate>
@@ -1198,7 +1198,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="8">8. Choral: Kein Menschenkind hier auf der Erd</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="75" Volume="27" Occasion="SUNDAY_1_AFTER_TRINITY">
+  <Cantata BWV="75" Volume="27" Occasion="TRINITY_I">
     <Title>Die Elenden sollen essen</Title>
     <Original>
       <OriginalDate>1723-05-30</OriginalDate>
@@ -1221,7 +1221,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="14">14. Choral: Was Gott tut, das ist wohlgetan</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="76" Volume="28" Occasion="SUNDAY_2_AFTER_TRINITY">
+  <Cantata BWV="76" Volume="28" Occasion="TRINITY_II">
     <Title>Die Himmel erzählen die Ehre Gottes</Title>
     <Original>
       <OriginalDate>1723-06-06</OriginalDate>
@@ -1244,7 +1244,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="14">14. Choral: Es danke, Gott, und lobe dich</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="77" Volume="39" Occasion="SUNDAY_13_AFTER_TRINITY">
+  <Cantata BWV="77" Volume="39" Occasion="TRINITY_XIII">
     <Title>Du sollt Gott, deinen Herren, lieben</Title>
     <Original>
       <OriginalDate>1723-08-22</OriginalDate>
@@ -1259,7 +1259,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: Ach Herr, ich wollte ja dein Recht</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="78" Volume="40" Occasion="SUNDAY_14_AFTER_TRINITY">
+  <Cantata BWV="78" Volume="40" Occasion="TRINITY_XIV">
     <Title>Jesu, der du meine Seele</Title>
     <Original>
       <OriginalDate>1724-09-10</OriginalDate>
@@ -1323,7 +1323,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: Mit unser Macht ist nichts getan</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="81" Volume="7" Occasion="SUNDAY_AFTER_EPIPHANY_4">
+  <Cantata BWV="81" Volume="7" Occasion="EPIPHANY_IV">
     <Title>Jesus schläft, was soll ich hoffen?</Title>
     <Original>
       <OriginalDate>1724-01-30</OriginalDate>
@@ -1339,7 +1339,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Choral: Unter deinen Schirmen</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="82" Volume="8" Occasion="PURIFICATION_MARIAE">
+  <Cantata BWV="82" Volume="8" Occasion="PURIFICATION">
     <Title>Ich habe genug</Title>
     <Original>
       <OriginalDate>1727-02-02</OriginalDate>
@@ -1353,7 +1353,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="5">5. Aria (Bass): Ich freue mich auf meinen Tod,</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="83" Volume="8" Occasion="PURIFICATION_MARIAE">
+  <Cantata BWV="83" Volume="8" Occasion="PURIFICATION">
     <Title>Erfreute Zeit im neuen Bunde</Title>
     <Original>
       <OriginalDate>1724-02-02</OriginalDate>
@@ -1427,7 +1427,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Choral: Muss ich sein betrübet?</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="88" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
+  <Cantata BWV="88" Volume="31" Occasion="TRINITY_V">
     <Title>Siehe, ich will viel Fischer aussenden</Title>
     <Original>
       <OriginalDate>1726-07-21</OriginalDate>
@@ -1443,7 +1443,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="7">7. Choral: Sing, bet und geh auf Gottes Wegen</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="89" Volume="50" Occasion="SUNDAY_22_AFTER_TRINITY">
+  <Cantata BWV="89" Volume="50" Occasion="TRINITY_XXII">
     <Title>Was soll ich aus dir machen, Ephraim?</Title>
     <Original>
       <OriginalDate>1726-11-10</OriginalDate>
@@ -1458,7 +1458,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="6">6. Choral: Mir mangelt zwar sehr viel</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="90" Volume="46" Occasion="SUNDAY_25_AFTER_TRINITY">
+  <Cantata BWV="90" Volume="46" Occasion="TRINITY_XXV">
     <Title>Es reißet euch ein schrecklich Ende</Title>
     <Original>
       <OriginalDate>1723-11-14</OriginalDate>
@@ -1505,7 +1505,7 @@ s  <Cantata BWV="27" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
       <Track No="9">9. Choral: Soll ich denn auch des Todes Weg</Track>
     </Tracks>
   </Cantata>
-s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
+s  <Cantata BWV="93" Volume="31" Occasion="TRINITY_V">
     <Title>Wer nur den lieben Gott lässt walten</Title>
     <Original>
       <OriginalDate>1724-07-09</OriginalDate>
@@ -1521,7 +1521,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Sing, bet und geh auf Gottes Wegen</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="94" Volume="35" Occastion="SUNDAY_9_AFTER_TRINITY">
+  <Cantata BWV="94" Volume="35" Occasion="TRINITY_IX">
     <Title>Was frag ich nach der Welt</Title>
     <Original>
       <OriginalDate>1724-08-06</OriginalDate>
@@ -1538,7 +1538,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="8">8. Choral: Was frag ich nach der Welt</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="95" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
+  <Cantata BWV="95" Volume="43" Occasion="TRINITY_XVI">
     <Title>Christus, der ist mein Leben</Title>
     <Original>
       <OriginalDate>1723-09-12</OriginalDate>
@@ -1554,7 +1554,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Weil du vom Tod erstanden bist</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="96" Volume="45" Occasion="SUNDAY_18_AFTER_TRINITY">
+  <Cantata BWV="96" Volume="45" Occasion="TRINITY_XVIII">
     <Title>Herr Christ, der ein’ge Gottessohn</Title>
     <Original>
       <OriginalDate>1724-10-08</OriginalDate>
@@ -1587,7 +1587,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="9">9. Versus IX. (Choral): So sei nun, Seele, deine</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="98" Volume="49" Occasion="SUNDAY_21_AFTER_TRINITY">
+  <Cantata BWV="98" Volume="49" Occasion="TRINITY_XXI">
     <Title>Was Gott tut, das ist wohlgetan I</Title>
     <Original>
       <OriginalDate>1726-11-10</OriginalDate>
@@ -1601,7 +1601,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Aria (Bass): Meinen Jesum lass ich nicht</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="99" Volume="41" Occasion="SUNDAY_15_AFTER_TRINITY">
+  <Cantata BWV="99" Volume="41" Occasion="TRINITY_XV">
     <Title>Was Gott tut, das ist wohlgetan II</Title>
     <Original>
       <OriginalDate>1724-09-17</OriginalDate>
@@ -1616,7 +1616,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. ChoralWas Gott tut, das ist wohlgetan</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="100" Volume="41" Occasion="SUNDAY_15_AFTER_TRINITY">
+  <Cantata BWV="100" Volume="41" Occasion="TRINITY_XV">
     <Title>Was Gott tut, das ist wohlgetan</Title>
     <Original>
       <OriginalDate>1732 - 1735</OriginalDate>
@@ -1632,7 +1632,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Was Gott tut, das ist wohlgetan / Darbei will ich verbleiben</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="101" Volume="36" Occasion="SUNDAY_10_AFTER_TRINITY">
+  <Cantata BWV="101" Volume="36" Occasion="TRINITY_X">
     <Title>Nimm von uns, Herr, du treuer Gott</Title>
     <Original>
       <OriginalDate>1724-08-13</OriginalDate>
@@ -1648,7 +1648,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Leit uns mit deiner rechten Hand</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="102" Volume="36" Occasion="SUNDAY_10_AFTER_TRINITY">
+  <Cantata BWV="102" Volume="36" Occasion="TRINITY_X">
     <Title>Herr, deine Augen sehen nach dem Glauben!</Title>
     <Original>
       <OriginalDate>1726-08-25</OriginalDate>
@@ -1694,7 +1694,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Der Herr ist mein getreuer Hirt</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="105" Volume="35" Occastion="SUNDAY_9_AFTER_TRINITY">
+  <Cantata BWV="105" Volume="35" Occasion="TRINITY_IX">
     <Title>Herr, gehe nicht ins Gericht mit deinem Knecht(1723) BWV 105</Title>
     <Original>
       <OriginalDate>1723-07-25</OriginalDate>
@@ -1726,7 +1726,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="8">4. Coro (Choral): Glorie, Lob, Ehr und Herrlichkeit</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="107" Volume="33" Occasion="SUNDAY_7_AFTER_TRINITY">
+  <Cantata BWV="107" Volume="33" Occasion="TRINITY_VII">
     <Title>Was willst du dich betrüben</Title>
     <Original>
       <OriginalDate>1724-07-23</OriginalDate>
@@ -1757,7 +1757,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Dein Geist, den Gott vom Himmel gibt</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="109" Volume="49" Occasion="SUNDAY_21_AFTER_TRINITY">
+  <Cantata BWV="109" Volume="49" Occasion="TRINITY_XXI">
     <Title>Ich glaube, lieber Herr, hilf meinem Unglauben!</Title>
     <Original>
       <OriginalDate>1723-10-17</OriginalDate>
@@ -1788,7 +1788,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Halleluja! Halleluja! Gelobt sei Gott</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="111" Volume="6" Occasion="SUNDAY_AFTER_EPIPHANY_3">
+  <Cantata BWV="111" Volume="6" Occasion="EPIPHANY_III">
     <Title>Was mein Gott will, das g’scheh allzeit</Title>
     <Original>
       <OriginalDate>1725-01-21</OriginalDate>
@@ -1817,7 +1817,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Versus V (Choral): Gutes und die Barmherzigkeit</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="113" Volume="37" Occasion="SUNDAY_11_AFTER_TRINITY">
+  <Cantata BWV="113" Volume="37" Occasion="TRINITY_XI">
     <Title>Herr Jesu Christ, du höchstes Gut</Title>
     <Original>
       <OriginalDate>1724-08-20</OriginalDate>
@@ -1834,7 +1834,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="8">8. Choral: Stärk mich mit deinem Freudengeist</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="114" Volume="44" Occasion="SUNDAY_17_AFTER_TRINITY">
+  <Cantata BWV="114" Volume="44" Occasion="TRINITY_XVII">
     <Title>Ach, lieben Christen, seid getrost</Title>
     <Original>
       <OriginalDate>1724-10-01</OriginalDate>
@@ -1850,7 +1850,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Wir wachen oder schlafen ein</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="115" Volume="50" Occasion="SUNDAY_22_AFTER_TRINITY">
+  <Cantata BWV="115" Volume="50" Occasion="TRINITY_XXII">
     <Title>Mache dich, mein Geist, bereit</Title>
     <Original>
       <OriginalDate>1724-11-05</OriginalDate>
@@ -1865,7 +1865,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Drum so lasst uns immerdar</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="116" Volume="45" Occasion="SUNDAY_25_AFTER_TRINITY">
+  <Cantata BWV="116" Volume="45" Occasion="TRINITY_XXV">
     <Title>Du Friedefürst, Herr Jesu Christ</Title>
     <Original>
       <OriginalDate>1724-11-26</OriginalDate>
@@ -1976,7 +1976,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Lob, Ehr und Dank sei dir gesagt</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="122" Volume="56" Occasion="SUNDAY_AFTER_CHRISTMAS">
+  <Cantata BWV="122" Volume="56" Occasion="AFTER_CHRISTMAS">
     <Title>Das neugeborne Kindelein</Title>
     <Original>
       <OriginalDate>1724-12-31</OriginalDate>
@@ -2006,7 +2006,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Drum fahrt nur immer hin</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="124" Volume="4" Occasion="SUNDAY_AFTER_EPIPHANY_1">
+  <Cantata BWV="124" Volume="4" Occasion="EPIPHANY_I">
     <Title>Meinen Jesum lass ich nicht</Title>
     <Original>
       <OriginalDate>1725-01-07</OriginalDate>
@@ -2021,7 +2021,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Jesum lass ich nicht von mir</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="125" Volume="8" Occasion="PURIFICATION_MARIAE">
+  <Cantata BWV="125" Volume="8" Occasion="PURIFICATION">
     <Title>Mit Fried und Freud ich fahr dahin</Title>
     <Original>
       <OriginalDate>1725-02-02</OriginalDate>
@@ -2051,7 +2051,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Verleih uns Frieden gnädiglich</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="127" Volume="11" Occasion="QUINQUAGESIMA_ESTOMIHI">
+  <Cantata BWV="127" Volume="11" Occasion="ESTOMIHI">
     <Title>Herr Jesu Christ, wahr’ Mensch und Gott</Title>
     <Original>
       <OriginalDate>1725-02-11</OriginalDate>
@@ -2065,7 +2065,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Choral: Ach, Herr, vergib all unsre Schuld</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="128" Volume="20" Occasion="ASCENSION_DAY">
+  <Cantata BWV="128" Volume="20" Occasion="ASCENSION">
     <Title>Auf Christi Himmelfahrt allein</Title>
     <Original>
       <OriginalDate>1725-05-10</OriginalDate>
@@ -2122,7 +2122,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Coro: Israel hoffe auf den Herrn</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="132" Volume="53" Occastion="SUNDAY_4_IN_ADVENT">
+  <Cantata BWV="132" Volume="53" Occasion="ADVENT_IV">
     <Title>Bereitet die Wege, bereitet die Bahn!</Title>
     <Original>
       <OriginalDate>1715-12-22</OriginalDate>
@@ -2186,7 +2186,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="8">8. Coro: Ergetzet auf Erden, erfreuet von oben</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="135" Volume="29" Occasion="SUNDAY_3_AFTER_TRINITY">
+  <Cantata BWV="135" Volume="29" Occasion="TRINITY_III">
     <Title>Ach Herr, mich armen Sünder</Title>
     <Original>
       <OriginalDate>1724-06-25</OriginalDate>
@@ -2201,7 +2201,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Ehr sei ins Himmels Throne</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="136" Volume="34" Occasion="SUNDAY_8_AFTER_TRINITY">
+  <Cantata BWV="136" Volume="34" Occasion="TRINITY_VIII">
     <Title>Erforsche mich, Gott, und erfahre mein Herz</Title>
     <Original>
       <OriginalDate>1723-07-18</OriginalDate>
@@ -2216,7 +2216,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Dein Blut, der edle Saft</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="137" Volume="38" Occasion="SUNDAY_12_AFTER_TRINITY">
+  <Cantata BWV="137" Volume="38" Occasion="TRINITY_XII">
     <Title>Lobe den Herren, den mächtigen König der Ehren</Title>
     <Original>
       <OriginalDate>1725-08-19</OriginalDate>
@@ -2230,7 +2230,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Versus V (Choral): Lobe den Herren, was in mir ist, lobe den Namen!</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="138" Volume="41" Occasion="SUNDAY_15_AFTER_TRINITY">
+  <Cantata BWV="138" Volume="41" Occasion="TRINITY_XV">
     <Title>Warum betrübst du dich, mein Herz?</Title>
     <Original>
       <OriginalDate>1723-09-05</OriginalDate>
@@ -2246,7 +2246,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Weil du mein Gott und Vater bist</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="139" Volume="51" Occasion="SUNDAY_23_AFTER_TRINITY">
+  <Cantata BWV="139" Volume="51" Occasion="TRINITY_XXIII">
     <Title>Wohl dem, der sich auf seinen Gott</Title>
     <Original>
       <OriginalDate>1724-11-12</OriginalDate>
@@ -2261,7 +2261,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Dahero Trotz der Höllen Heer!</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="140" Volume="51" Occasion="SUNDAY_27_AFTER_TRINITY">
+  <Cantata BWV="140" Volume="51" Occasion="TRINITY_XXVII">
     <Title>Wachet auf, ruft uns die Stimme</Title>
     <Original>
       <OriginalDate>1731-11-25</OriginalDate>
@@ -2340,7 +2340,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="8">8. Choral: Denn wer selig dahin fähret</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="147" Volume="53" Occasion="VISITATION_MARIAE">
+  <Cantata BWV="147" Volume="53" Occasion="VISITATION">
     <Title>Herz und Mund und Tat und Leben</Title>
     <Original>
       <OriginalDate>1723-07-02</OriginalDate>
@@ -2360,7 +2360,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="10">10. Choral: Jesus bleibet meine Freude</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="147a" Alternative="147.1" Occasion="SUNDAY_4_IN_ADVENT">
+  <Cantata BWV="147a" Alternative="147.1" Occasion="ADVENT_IV">
     <Title>Herz und Mund und Tat und Leben</Title>
     <Original>
       <OriginalDate>1716-12-20</OriginalDate>
@@ -2377,7 +2377,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Dein Wort lass mich bekennen</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="148" Volume="44" Occasion="SUNDAY_17_AFTER_TRINITY">
+  <Cantata BWV="148" Volume="44" Occasion="TRINITY_XVII">
     <Title>Bringet dem Herrn Ehre seines Namens</Title>
     <Original>
       <OriginalDate>1723-09-23</OriginalDate>
@@ -2449,7 +2449,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Choral: Heut schleußt er wieder auf die Tür</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="152" Volume="56" Occasion="SUNDAY_AFTER_CHRISTMAS">
+  <Cantata BWV="152" Volume="56" Occasion="AFTER_CHRISTMAS">
     <Title>Tritt auf die Glaubensbahn</Title>
     <Original>
       <OriginalDate>1714-12-30</OriginalDate>
@@ -2464,7 +2464,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Duetto (Sopran, Bass): Wie soll ich dich, Liebster der Seelen, umfassen?</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="153" Volume="3" Occasion="SUNDAY_AFTER_NEW_YEAR">
+  <Cantata BWV="153" Volume="3" Occasion="AFTER_NEW_YEAR">
     <Title>Schau, lieber Gott, wie meine Feind</Title>
     <Original>
       <OriginalDate>1724-01-02</OriginalDate>
@@ -2482,7 +2482,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="9">9. Choral: Drum will ich, weil ich lebe noch</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="154" Volume="4" Occasion="SUNDAY_AFTER_EPIPHANY_1">
+  <Cantata BWV="154" Volume="4" Occasion="EPIPHANY_I">
     <Title>Mein liebster Jesus ist verloren</Title>
     <Original>
       <OriginalDate>1724-01-09</OriginalDate>
@@ -2499,7 +2499,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="8">8. Choral: Meinen Jesum lass ich nicht</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="155" Volume="5" Occasion="SUNDAY_AFTER_EPIPHANY_2">
+  <Cantata BWV="155" Volume="5" Occasion="EPIPHANY_II">
     <Title>Mein Gott, wie lang, ach lange?</Title>
     <Original>
       <OriginalDate>1716-01-19</OriginalDate>
@@ -2513,7 +2513,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Choral: Ob sich’s anließ, als wollt er nicht</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="156" Volume="6" Occasion="SUNDAY_AFTER_EPIPHANY_3">
+  <Cantata BWV="156" Volume="6" Occasion="EPIPHANY_III">
     <Title>Ich steh mit einem Fuß im Grabe</Title>
     <Original>
       <OriginalDate>23 January 1729-01-23</OriginalDate>
@@ -2528,7 +2528,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Herr, wie du willt, so schick’s mit mir</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="157" Occasion="FUNERAL;PURIFICATION_MARIAE">
+  <Cantata BWV="157" Occasion="FUNERAL;PURIFICATION">
     <Title>Ich lasse dich nicht, du segnest mich denn</Title>
     <Original>
       <OriginalDate>6 February 1727</OriginalDate>
@@ -2543,7 +2543,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Chorale: Meinen Jesum lass ich nicht</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="158" Volume="15" Occasion="PURIFICATION_MARIAE;EASTER_TUESDAY">
+  <Cantata BWV="158" Volume="15" Occasion="PURIFICATION;EASTER_TUESDAY">
     <Title>Der Friede sei mit dir</Title>
     <Original>
       <OriginalDate>1727-04-15 or 1728-03-30</OriginalDate>
@@ -2557,7 +2557,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="4">4. Choral: Hier ist das rechte Osterlamm</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="159" Volume="11" Occasion="QUINQUAGESIMA_ESTOMIHI">
+  <Cantata BWV="159" Volume="11" Occasion="ESTOMIHI">
     <Title>Sehet! Wir gehn hinauf gen Jerusalem</Title>
     <Original>
       <OriginalDate>1729-02-27</OriginalDate>
@@ -2572,7 +2572,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
     </Tracks>
   </Cantata>
   <!-- BWV 160: Ich weiss dass mein Erlöser lebt - by Georg Philipp Telemann -->
-  <Cantata BWV="161" Volume="43" Occasion="SUNDAY_16_AFTER_TRINITY">
+  <Cantata BWV="161" Volume="43" Occasion="TRINITY_XVI">
     <Title>Komm, du süße Todesstunde</Title>
     <Original>
       <OriginalDate>1716-09-27</OriginalDate>
@@ -2587,7 +2587,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Der Leib zwar in der Erden</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="162" Volume="48" Occasion="SUNDAY_20_AFTER_TRINITY">
+  <Cantata BWV="162" Volume="48" Occasion="TRINITY_XX">
     <Title>Ach! ich sehe, itzt, da ich zur Hochzeit gehe</Title>
     <Original>
       <OriginalDate>1715-11-03</OriginalDate>
@@ -2602,7 +2602,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Ach, ich habe schon erblicket</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="163" Volume="51" Occasion="SUNDAY_23_AFTER_TRINITY">
+  <Cantata BWV="163" Volume="51" Occasion="TRINITY_XXIII">
     <Title>Nur jedem das Seine!</Title>
     <Original>
       <OriginalDate>1715-11-24</OriginalDate>
@@ -2617,7 +2617,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Führ auch mein Herz und Sinn</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="164" Volume="39" Occasion="SUNDAY_13_AFTER_TRINITY">
+  <Cantata BWV="164" Volume="39" Occasion="TRINITY_XIII">
     <Title>Ihr, die ihr euch von Christo nennet</Title>
     <Original>
       <OriginalDate>1725-08-26</OriginalDate>
@@ -2677,7 +2677,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Choral: Sei Lob und Preis mit Ehren</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="168" Volume="35" Occastion="SUNDAY_9_AFTER_TRINITY">
+  <Cantata BWV="168" Volume="35" Occasion="TRINITY_IX">
     <Title>Tue Rechnung! Donnerwort</Title>
     <Original>
       <OriginalDate>1725-07-29</OriginalDate>
@@ -2692,7 +2692,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Stärk mich mit deinem Freudengeist</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="169" Volume="45" Occasion="SUNDAY_18_AFTER_TRINITY">
+  <Cantata BWV="169" Volume="45" Occasion="TRINITY_XVIII">
     <Title>Gott soll allein mein Herze haben</Title>
     <Original>
       <OriginalDate>1726-10-20</OriginalDate>
@@ -2708,7 +2708,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Du süße Liebe, schenk uns deine Gunst</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="170" Volume="32" Occasion="SUNDAY_6_AFTER_TRINITY">
+  <Cantata BWV="170" Volume="32" Occasion="TRINITY_VI">
     <Title>Vergnügte Ruh, beliebte Seelenlust</Title>
     <Original>
       <OriginalDate>1726-07-28</OriginalDate>
@@ -2834,7 +2834,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Auf dass wir also allzugleich</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="177" Volume="30" Occasion="SUNDAY_4_AFTER_TRINITY">
+  <Cantata BWV="177" Volume="30" Occasion="TRINITY_IV">
     <Title>Ich ruf zu dir, Herr Jesu Christ</Title>
     <Original>
       <OriginalDate>1732-07-06</OriginalDate>
@@ -2848,7 +2848,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Choral: Ich lieg im Streit und widerstreb</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="178" Volume="34" Occasion="SUNDAY_8_AFTER_TRINITY">
+  <Cantata BWV="178" Volume="34" Occasion="TRINITY_VIII">
     <Title>Wo Gott der Herr nicht bei uns hält</Title>
     <Original>
       <OriginalDate>1724-07-30</OriginalDate>
@@ -2864,7 +2864,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Die Feind sind all in deiner Hand</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="179" Volume="37" Occasion="SUNDAY_11_AFTER_TRINITY">
+  <Cantata BWV="179" Volume="37" Occasion="TRINITY_XI">
     <Title>Siehe zu, dass deine Gottesfurcht nicht Heuchelei sei</Title>
     <Original>
       <OriginalDate>1723-08-08</OriginalDate>
@@ -2879,7 +2879,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Ich armer Mensch, ich armer Sünder</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="180" Volume="48" Occasion="SUNDAY_20_AFTER_TRINITY">
+  <Cantata BWV="180" Volume="48" Occasion="TRINITY_XX">
     <Title>Schmücke dich, o liebe Seele</Title>
     <Original>
       <OriginalDate>1724-10-22</OriginalDate>
@@ -2909,7 +2909,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="5">5. Coro: Lass, Höchster, uns zu allen Zeiten</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="182" Volume="12" Occastion="PALMARUM">
+  <Cantata BWV="182" Volume="12" Occasion="PALMARUM">
     <Title>Himmelskönig, sei willkommen</Title>
     <Original>
       <OriginalDate>1714-03-25</OriginalDate>
@@ -2955,7 +2955,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Coro: Guter Hirte, Trost der Deinen</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="185" Volume="30" Occasion="SUNDAY_4_AFTER_TRINITY">
+  <Cantata BWV="185" Volume="30" Occasion="TRINITY_IV">
     <Title>Barmherziges Herze der ewigen Liebe</Title>
     <Original>
       <OriginalDate>1715-07-14</OriginalDate>
@@ -2970,7 +2970,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Ich ruf zu dir, Herr Jesu Christ</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="186" Volume="33" Occasion="SUNDAY_7_AFTER_TRINITY">
+  <Cantata BWV="186" Volume="33" Occasion="TRINITY_VII">
     <Title>Ärgre dich, o Seele, nicht</Title>
     <Original>
       <OriginalDate>1716-12-13</OriginalDate>
@@ -2986,7 +2986,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="6">6. Choral: Darum, ob ich schon dulde</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="186a" Volume="33" Occasion="SUNDAY_3_IN_ADVENT">
+  <Cantata BWV="186a" Volume="33" Occasion="ADVENT_III">
     <Title>Ärgre dich, o Seele, nicht</Title>
     <Original>
       <OriginalDate>1723-07-11</OriginalDate>
@@ -3007,7 +3007,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="11">11. Choral: Die Hoffnung wart’ der rechten Zeit</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="187" Volume="33" Occasion="SUNDAY_7_AFTER_TRINITY">
+  <Cantata BWV="187" Volume="33" Occasion="TRINITY_VII">
     <Title>Es wartet alles auf dich</Title>
     <Original>
       <OriginalDate>4 August 1726-08-04</OriginalDate>
@@ -3024,7 +3024,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="7">7. Choral: Gott hat die Erde zugericht’</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="188" Volume="49" Occasion="SUNDAY_21_AFTER_TRINITY">
+  <Cantata BWV="188" Volume="49" Occasion="TRINITY_XXI">
     <Title>Ich habe meine Zuversicht</Title>
     <Original>
       <OriginalDate>1728-10-17</OriginalDate>
@@ -3204,7 +3204,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="10">10. Chorus: Doch, Königin! du stirbest nicht</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="199" Volume="37" Occasion="SUNDAY_11_AFTER_TRINITY">
+  <Cantata BWV="199" Volume="37" Occasion="TRINITY_XI">
     <Title>Mein Herze schwimmt im Blut</Title>
     <Original>
       <OriginalDate>1714-08-12</OriginalDate>
@@ -3221,7 +3221,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
       <Track No="8">8. Aria (Sopran): Wie freudig ist mein Herz</Track>
     </Tracks>
   </Cantata>
-  <Cantata BWV="200" Volume="8" Occasion="PURIFICATION_MARIAE">
+  <Cantata BWV="200" Volume="8" Occasion="PURIFICATION">
     <Title>Bekennen will ich seinen Namen</Title>
     <Original>
       <OriginalDate>1742 – 1743</OriginalDate>
@@ -3238,7 +3238,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
   <!-- BWV 221 Wer sucht die Pracht, wer wünscht den Glanz, by an unknown composer, not by Johann Sebastian Bach -->
   <!-- BWV 222 Mein Odem ist schwach, by Johann Ernst Bach II, not by Johann Sebastian Bach -->
   <!-- BWV A1, Gesegnet ist die Zuversicht, by Georg Philipp Telemann -->
-  <Cantata BWV="A2" Occasion="SUNDAY_19_AFTER_TRINITY">
+  <Cantata BWV="A2" Occasion="TRINITY_XIX">
     <Title>Gott, du Richter der Gedanken</Title>
     <Original>
       <OriginalDate>1729-10-23</OriginalDate>
@@ -3246,7 +3246,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
     </Original>
     <MusicLost />
   </Cantata>
-  <Cantata BWV="A199" Alternative="1135" Occasion="ANNUNCIATION_MARIAE">
+  <Cantata BWV="A199" Alternative="1135" Occasion="ANNUNCIATION">
     <Title>Siehe, eine Jungfrau ist schwanger </Title>
     <Original>
       <OriginalDate>1724-03-25</OriginalDate>
@@ -3254,7 +3254,7 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
     </Original>
     <MusicLost />
   </Cantata>
-  <Cantata BWV="A209" Alternative="1136" Occasion="SUNDAY_7_AFTER_TRINITY">
+  <Cantata BWV="A209" Alternative="1136" Occasion="TRINITY_VII">
     <Title>Liebster Gott, vergißt du mich</Title>
     <Original>
       <OriginalDate>1708-1717</OriginalDate>
@@ -3343,42 +3343,42 @@ s  <Cantata BWV="93" Volume="31" Occasion="SUNDAY_5_AFTER_TRINITY">
   <Cantata BWV="248/1" Occasion="CHRISTMAS_DAY_1">
     <Title>Weihnachtsoratorium, Teil I: Jauchzet, frohlocket, auf, preiset die Tage</Title>
     <Original>
-      <OriginalDate>25.12.1734</OriginalDate>
+      <OriginalDate>1734-12-25</OriginalDate>
       <Town>Leipzig</Town>
     </Original>
   </Cantata>
   <Cantata BWV="248/2" Occasion="CHRISTMAS_DAY_2">
     <Title>Weihnachtsoratorium, Teil II: Und es waren Hirten in derselben Gegend</Title>
     <Original>
-      <OriginalDate>26.12.1734</OriginalDate>
+      <OriginalDate>1734-12-26</OriginalDate>
       <Town>Leipzig</Town>
     </Original>
   </Cantata>
   <Cantata BWV="248/3" Occasion="CHRISTMAS_DAY_3">
     <Title>Weihnachtsoratorium, Teil III: Herrscher des Himmels, erhöre das Lallen</Title>
     <Original>
-      <OriginalDate>27.12.1734</OriginalDate>
+      <OriginalDate>1734-12-27</OriginalDate>
       <Town>Leipzig</Town>
     </Original>
   </Cantata>
   <Cantata BWV="248/4" Occasion="NEW_YEAR">
     <Title>Weihnachtsoratorium, Teil IV: Fallt mit Danken, fallt mit Loben</Title>
     <Original>
-      <OriginalDate>1.1.1735</OriginalDate>
+      <OriginalDate>1735-01-01</OriginalDate>
       <Town>Leipzig</Town>
     </Original>
   </Cantata>
-  <Cantata BWV="248/5" Occasion="SUNDAY_AFTER_NEW_YEAR">
+  <Cantata BWV="248/5" Occasion="AFTER_NEW_YEAR">
     <Title>Weihnachtsoratorium, Teil V: Ehre sei dir, Gott, gesungen</Title>
     <Original>
-      <OriginalDate>2.1.1735</OriginalDate>
+      <OriginalDate>1735-01-02</OriginalDate>
       <Town>Leipzig</Town>
     </Original>
   </Cantata>
   <Cantata BWV="248/6" Occasion="EPIPHANY">
     <Title>Weihnachtsoratorium, Teil VI: Herr, wenn die stolzen Feinde schnauben</Title>
     <Original>
-      <OriginalDate>6.1.1735</OriginalDate>
+      <OriginalDate>1735-01-06</OriginalDate>
       <Town>Leipzig</Town>
     </Original>
   </Cantata>

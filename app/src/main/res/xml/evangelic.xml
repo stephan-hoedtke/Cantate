@@ -3,25 +3,25 @@
     <!-- https://www.bach-cantatas.com/LCY/Lutheran-2016-2020.htm -->
     <!-- http://www.kleingraduale.nl/LiturgiaHorarum -->
     <!-- https://www.stundenbuch-online.de/instrumenta/kalender-2012.pdf -->
-    <Evangelic Key="SUNDAY_1_IN_ADVENT" Name="1. Sonntag im Advent" />
-    <Evangelic Key="SUNDAY_2_IN_ADVENT" Name="2. Sonntag im Advent" />
-    <Evangelic Key="SUNDAY_3_IN_ADVENT" Name="3. Sonntag im Advent" />
-    <Evangelic Key="SUNDAY_4_IN_ADVENT" Name="4. Sonntag im Advent" />
+    <Evangelic Key="ADVENT_I" Name="1. Sonntag im Advent" />
+    <Evangelic Key="ADVENT_II" Name="2. Sonntag im Advent" />
+    <Evangelic Key="ADVENT_III" Name="3. Sonntag im Advent" />
+    <Evangelic Key="ADVENT_IV" Name="4. Sonntag im Advent" />
     <Evangelic Key="CHRISTMAS_DAY_1" Name="1. Weihnachtstag" />
     <Evangelic Key="CHRISTMAS_DAY_2" Name="2. Weihnachtstag" />
     <Evangelic Key="CHRISTMAS_DAY_3" Name="3. Weihnachtstag" />
-    <Evangelic Key="SUNDAY_AFTER_CHRISTMAS" Name="Erster Sonntag nach Weihnachten" />
+    <Evangelic Key="AFTER_CHRISTMAS" Name="Erster Sonntag nach Weihnachten" />
     <Evangelic Key="NEW_YEAR" Name="Neujahr" />
-    <Evangelic Key="SUNDAY_AFTER_NEW_YEAR" Name="Erster Sonntag nach Neujahr" />
+    <Evangelic Key="AFTER_NEW_YEAR" Name="Erster Sonntag nach Neujahr" />
     <Evangelic Key="EPIPHANY" Name="Epiphanie (Erscheinung des Herrn)" />
-    <Evangelic Key="SUNDAY_AFTER_EPIPHANY_1" Name="1. Sonntag nach Epiphanie (Taufe des Herrn)" />
-    <Evangelic Key="SUNDAY_AFTER_EPIPHANY_2" Name="2. Sonntag nach Epiphanie" />
-    <Evangelic Key="SUNDAY_AFTER_EPIPHANY_3" Name="3. Sonntag nach Epiphanie" />
-    <Evangelic Key="SUNDAY_AFTER_EPIPHANY_4" Name="4. Sonntag nach Epiphanie" />
-    <Evangelic Key="SUNDAY_AFTER_EPIPHANY_5" Name="5. Sonntag nach Epiphanie" />
+    <Evangelic Key="EPIPHANY_I" Name="1. Sonntag nach Epiphanie (Taufe des Herrn)" />
+    <Evangelic Key="EPIPHANY_II" Name="2. Sonntag nach Epiphanie" />
+    <Evangelic Key="EPIPHANY_III" Name="3. Sonntag nach Epiphanie" />
+    <Evangelic Key="EPIPHANY_IV" Name="4. Sonntag nach Epiphanie" />
+    <Evangelic Key="EPIPHANY_V" Name="5. Sonntag nach Epiphanie" />
     <Evangelic Key="SEPTUAGESIMA" Name="Vorvorletzter Sonntag vor der Fastenzeit (Septuagesima)" />
     <Evangelic Key="SEXAGESIMA" Name="Vorletzer Sonntag vor der Fastenzeit (Sexagesima)" />
-    <Evangelic Key="QUINQUAGESIMA_ESTOMIHI" Name="Letzter Sonntag vor der Fastenzeit (Estomihi)" />
+    <Evangelic Key="ESTOMIHI" Name="Letzter Sonntag vor der Fastenzeit (Estomihi)" />
     <Evangelic Key="INVOCABIT" Name="1. Fastensonntag (Invocabit)" />
     <Evangelic Key="REMINISCERE" Name="2. Fastensonntag (Reminiscere)" />
     <Evangelic Key="OCULI" Name="3. Fastensonntag (Oculi)" />
@@ -37,46 +37,48 @@
     <Evangelic Key="JUBILATE" Name="3. Sonntag nach Ostern (Jubilate)" />
     <Evangelic Key="CANTATE" Name="4. Sonntag nach Ostern (Cantate)" />
     <Evangelic Key="ROGATE" Name="5. Sonntag nach Ostern (Rogate)" />
-    <Evangelic Key="ASCENSION_DAY" Name="Himmelfahrt" />
+    <Evangelic Key="ASCENSION" Name="Himmelfahrt" />
     <Evangelic Key="EXAUDI" Name="6. Sonntag nach Ostern (Exaudi)" />
     <Evangelic Key="PENTECOST_SUNDAY" Name="Pfingstsonntag" />
     <Evangelic Key="PENTECOST_MONDAY" Name="Pfingstmontag" />
     <Evangelic Key="PENTECOST_TUESDAY" Name="Pfingstdienstag" />
     <Evangelic Key="TRINITY" Name="Trinitatis" />
-    <Evangelic Key="SUNDAY_1_AFTER_TRINITY" Name="1. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_2_AFTER_TRINITY" Name="2. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_3_AFTER_TRINITY" Name="3. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_4_AFTER_TRINITY" Name="4. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_5_AFTER_TRINITY" Name="5. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_6_AFTER_TRINITY" Name="6. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_7_AFTER_TRINITY" Name="7. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_8_AFTER_TRINITY" Name="8. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_9_AFTER_TRINITY" Name="9. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_10_AFTER_TRINITY" Name="10. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_11_AFTER_TRINITY" Name="11. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_12_AFTER_TRINITY" Name="12. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_13_AFTER_TRINITY" Name="13. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_14_AFTER_TRINITY" Name="14. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_15_AFTER_TRINITY" Name="15. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_16_AFTER_TRINITY" Name="16. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_17_AFTER_TRINITY" Name="17. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_18_AFTER_TRINITY" Name="18. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_19_AFTER_TRINITY" Name="19. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_20_AFTER_TRINITY" Name="20. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_21_AFTER_TRINITY" Name="21. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_22_AFTER_TRINITY" Name="22. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_23_AFTER_TRINITY" Name="23. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_24_AFTER_TRINITY" Name="24. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_25_AFTER_TRINITY" Name="25. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_26_AFTER_TRINITY" Name="26. Sonntag nach Trinitatis" />
-    <Evangelic Key="SUNDAY_27_AFTER_TRINITY" Name="27. Sonntag nach Trinitatis" />
-    <Evangelic Key="PURIFICATION_MARIAE" Name="Maria Lichtmess" />
-    <Evangelic Key="ANNUNCIATION_MARIAE" Name="Maria Verkündigung" />
+    <Evangelic Key="TRINITY_I" Name="1. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_II" Name="2. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_III" Name="3. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_IV" Name="4. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_V" Name="5. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_VI" Name="6. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_VII" Name="7. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_VIII" Name="8. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_IX" Name="9. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_X" Name="10. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XI" Name="11. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XII" Name="12. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XIII" Name="13. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XIV" Name="14. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XV" Name="15. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XVI" Name="16. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XVII" Name="17. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XVIII" Name="18. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XIX" Name="19. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XX" Name="20. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XXI" Name="21. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XXII" Name="22. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XXIII" Name="23. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XXIV" Name="24. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XXV" Name="25. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XXVI" Name="26. Sonntag nach Trinitatis" />
+    <Evangelic Key="TRINITY_XXVII" Name="27. Sonntag nach Trinitatis" />
+    <Evangelic Key="PURIFICATION" Name="Maria Lichtmess" />
+    <Evangelic Key="ANNUNCIATION" Name="Maria Verkündigung" />
     <Evangelic Key="JOHANNIS" Name="Johannis" />
-    <Evangelic Key="VISITATION_MARIAE" Name="Maria Heimsuchung" />
+    <Evangelic Key="VISITATION" Name="Maria Heimsuchung" />
     <Evangelic Key="MICHAELIS" Name="Michaelis" />
     <Evangelic Key="REFORMATION" Name="Reformationstag" />
     <Evangelic Key="FUNERAL" Name="Begräbnisfeier" />
     <Evangelic Key="WEDDING" Name="Hochzeit" />
+    <Evangelic Key="RATSWAHL" Name="Ratswahl" />
     <Evangelic Key="OTHER" Name="Andere" />
+    <Evangelic Key="UNKNOWN" Name="Unbestimmt" />
 </EvangelicCalendar>

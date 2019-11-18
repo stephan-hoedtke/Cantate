@@ -21,7 +21,7 @@
         <Communio>Ecce virgo concipiet, et pariet filium: et vocabitur nomen eius Emmanuel</Communio>
     </Catholic>
 
-    <Catholic Key="IN_VIGILIA_NATIVITATIS_DOMINI" Tempus="Tempus Nativitatis" Name="In Vigilia Nativitatis Domini">
+    <Catholic Key="IN_VIGILIA_NATIVITATIS_DOMINI" Tempus="Tempus Nativitatis" Name="In Vigilia Nativitatis Domini" FriendlyName="Christnacht">
         <Introitus>Hodie scietis, *quia veniet Dominus, et salvabit nos : et mane videbitis goriam eius. Ps. Domini est terra, et plenitudo eius: orbis terrarum, et universi qui habitant in eo.</Introitus>
         <Communio>In splendoribus sanctorum,* ex utero ante luciferum genuite.</Communio>
     </Catholic>
@@ -155,7 +155,7 @@
         <Communio></Communio>
     </Catholic>
 
-    <Catholic Key="IN_ASCENSIONE_DOMINI" Tempus="Tempus Paschale" Name="In Ascensione Domini">
+    <Catholic Key="IN_ASCENSIONE_DOMINI" Tempus="Tempus Paschale" Name="In Ascensione Domini" FriendlyName="Himmelfahrt">
         <Introitus>Viri Galilaei, quid admiramini aspicientes in caelum? alleluia</Introitus>
         <Communio></Communio>
     </Catholic>
@@ -347,9 +347,6 @@
         <Introitus>Requiem in aeternam dona eis Domine: et lux perpetua luceat eis.</Introitus>
         <Communio></Communio>
         <Link>https://de.wikipedia.org/wiki/Allerseelen</Link>
-    </Catholic>
-
-    <Catholic Key="OTHER" Name="Other">
     </Catholic>
 
 </CatholicCalendar>

@@ -1,5 +1,7 @@
 package com.stho.cantate;
 
+import java.text.Normalizer;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class Sunday {
@@ -25,12 +27,8 @@ public class Sunday {
         return dayOfYear;
     }
 
-    Calendar getDate() {
-        return date;
-    }
-
     public String getDateAsString() {
-        return Formatter.toString(getDate());
+        return Formatter.toString(date);
     }
 
     public String getName() {

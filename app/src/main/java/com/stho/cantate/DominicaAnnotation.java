@@ -154,7 +154,6 @@ class DominicaAnnotation {
             DOMINICA_ULTIMA_PER_ANNUM,
             ALLERHEILIGEN,
             ALLERSEELEN,
-            OTHER,
     })
     @Retention(RetentionPolicy.SOURCE)
     @interface Dominica {}

@@ -1,7 +1,9 @@
 package com.stho.cantate;
 
-import java.util.ArrayList;
+import java.text.Normalizer;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.ArrayList;
 
 public class Cantate {
     private final String bwv;
@@ -32,7 +34,15 @@ public class Cantate {
 
     void setVolume(String volume) { this.volume = volume; }
     void addTrack(String track) { this.tracks.add(track); }
-    void setOriginalDate(String date) { this.originalDate = date; }
+    void setOriginalDate(String dateString) {
+        Calendar date = Formatter.parseString(dateString);
+        if (date != null) {
+            this.originalDate = Formatter.toString(date);
+        }
+        else {
+            this.originalDate = dateString;
+        }
+    }
     void setTown(String town) { this.town = town; }
     public void setLink(String link) { this.link = link; }
     void setTitle(String title) { this.title = title; }
