@@ -1,351 +1,489 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CatholicCalendar>
+    <Link>https://gregorien.info/calendar/id/1/0/de</Link>
+    <Link>https://gregorien.info/de</Link>
+    
     <Catholic Key="HEBDOMADA_I_ADVENTUS" Tempus="Tempus Adventus" Name="Dominica Prima Adventus">
-        <Introitus>Ad te levavi animam meam : Deus meus in te confido, non erubescam : neque irrideant me inimici mei : etenim universi qui te exspectant, non confundentur. Ps. Vias tuas, Domine, demonstra mihi : et semitas tuas edoce me.</Introitus>
+        <Introitus>Ad te levavi animam meam : Deus meus, in te confido, non erubescam. Neque irrideant me inimici mei: etenim universi qui te exspectant, non confundentur. 
+        Ps. Vias tuas, Domine, demonstra mihi : et semitas tuas doce me. </Introitus>
         <Communio>Dominus dabit benignitatem : et terra nostra dabit fructum suum.</Communio>
-        <Link>http://www.gregor-und-taube.de/B.01._Adventssonntag.pdf</Link>
+       <Link>http://www.gregor-und-taube.de/B.01._Adventssonntag.pdf</Link>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_II_ADVENTUS" Tempus="Tempus Adventus" Name="Dominica Secunda Adventus">
-        <Introitus>Populus Sion, ecce Dominus veniet ad salvandas gentes: et auditam faciet Dominus gloriam vocis suae, in laetitia cordis vestri. Ps. Qui regis Israel, intende: * qui deducis velut ovem Joseph</Introitus>
-        <Communio>Ierusalem surge, et sta in excelso: et vide iucunditatem, quae veniet tibi a Deo tuo</Communio>
+        <Introitus>Populus Sion, ecce Dominus veniet ad salvandas gentes : et auditam faciet Dominus gloriam vocis suae, in laetitia cordis vestri.
+        Ps. Qui regis Israel, intende : qui deducis velut ovem Ioseph.</Introitus>
+        <Communio>Ierusalem surge, et sta in excelso : et vide iucunditatem quae veniet tibi a Deo tuo.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_III_ADVENTUS" Tempus="Tempus Adventus" Name="Dominica Tertia Adventus">
-        <Introitus>Gaudete in Domino semper: iterum dico, gaudete: medestia vestra nota sit omnibus hominibus: Dominus prope est. Nihil solliciti sitis: sed in omni oratione petitiones vestrae innotescant apud Deum Ps. Benedixisti, Domine, terram tuam : * avertisti captivitatem Jacob.</Introitus>
-        <Communio>Dicite : sPusillanimes confortfimini, et nolite timere : ecce Deus noster veniet, et salvabit nos.</Communio>
+        <Introitus>Gaudete in Domino semper : iterum dico, gaudete : modestia vestra nota sit omnibus hominibus : Dominus prope est. Nihil solliciti sitis : sed in omni oratione petitiones vestrae innotescant apud Deum. 
+        Ps. Benedixisti, Domine, terram tuam, avertisti captivitatem Iacob.</Introitus>
+        <Communio>Dicite : pusillanimes confortamini, et nolite timere : ecce Deus noster veniet, et salvabit nos.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_IV_ADVENTUS" Tempus="Tempus Adventus" Name="Dominica Quarta Adventus">
-        <Introitus>Rorate caeli desuper, et nubes pluant justum: aperiatur terra, et germinet Salvatorem. Ps. Caeli enarrant gloriam Dei: * et opera manuum ejus annuntiat firmamentum.</Introitus>
-        <Communio>Ecce virgo concipiet, et pariet filium: et vocabitur nomen eius Emmanuel</Communio>
+        <Introitus>Rorate caeli desuper, et nubes pluant Iustum : aperiatur terra, et germinet salvatorem.
+        Ps. Caeli enarrant gloriam Dei: et opera manuum eius annuntiat firmamentum.</Introitus>
+        <Communio>Ecce virgo concipiet et pariet filium et vocabitur nomen eius Emmanuel.</Communio>
     </Catholic>
 
     <Catholic Key="IN_VIGILIA_NATIVITATIS_DOMINI" Tempus="Tempus Nativitatis" Name="In Vigilia Nativitatis Domini" FriendlyName="Christnacht">
-        <Introitus>Hodie scietis, *quia veniet Dominus, et salvabit nos : et mane videbitis goriam eius. Ps. Domini est terra, et plenitudo eius: orbis terrarum, et universi qui habitant in eo.</Introitus>
-        <Communio>In splendoribus sanctorum,* ex utero ante luciferum genuite.</Communio>
+        <Introitus>Hodie scietis, quia veniet Dominus, et salvabit vos : et mane videbitis gloriam eius. 
+        Ps. Domini est terra et plenitudo eius : orbis terrarum, et universi qui habitant in eo.</Introitus>
+        <Communio>Revelabitur gloria Domini : et videbit omnis caro salutare Dei nostri.</Communio>
     </Catholic>
 
-    <Catholic Key="IN_NATIVITATE_DOMINI" Tempus="Tempus Nativitatis" Name="In Nativitate Domini">
-        <Intoitus>Puer natus est nobis, et filius datus est nobis: cuius imperium super humorum eius: et vocabitur nomen eius, magni consilii Angelus</Intoitus>
-        <Communio>Viderunt omnes fines terrae salutare Dei nostri</Communio>
+    <Catholic Key="IN_NATIVITATE_DOMINI" Tempus="Tempus Nativitatis" Name="In Nativitate Domini" Day="24 December">
+        <Introitus>Puer natus est nobis, et filius datus est nobis : cuius imperium super humerum eius : et vocabitur nomen eius, magni consilii angelus. 
+        Ps. Cantate Domino canticum novum : quia mirabilia fecit.</Introitus>
+        <Communio>Viderunt omnes fines terrae salutare Dei nostri.</Communio>
     </Catholic>
 
-    <Catholic Key="SANCTI_STEPHANI_PROTOMARTYRIS" Tempus="Tempus Nativitatis" Name="Sancti Stephani Protomartyris">
-        <Introitus>Etenim sederunt principes, et adversum me loquebantur</Introitus>
+    <Catholic Key="SANCTI_STEPHANI_PROTOMARTYRIS" Tempus="Tempus Nativitatis" Name="Sancti Stephani Protomartyris" Day="25 December">
+        <Introitus>Etenim sederunt principes, et adversum me loquebantur : et iniqui persecuti sunt me : adiuva me, Domine Deus meus, quia servus tuus exercebatur in tuis iustificationibus. 
+        Ps. Beati immaculati in via : qui ambulant in lege Domini.</Introitus>
+        <Communio>Video caelos apertos, et Iesum stantem a dextris virtutis Dei.</Communio>
     </Catholic>
 
-    <Catholic Key="SANCTAE_FAMILIAE" Tempus="Tempus Nativitatis" Name="Sanctae Familiae Iesu, Mariae et Ioseph">
-        <Introitus Key="HEBDOMADA_XVII">Deus in loco sancta suo...</Introitus>
-        <Communio></Communio>
+    <Catholic Key="SANCTAE_FAMILIAE" Tempus="Tempus Nativitatis" Name="Sanctae Familiae Iesu, Mariae et Ioseph" Day="30 December">
+        <Introitus>Deus in loco sancto suo : Deus, qui inhabitare facit unanimes in domo : ipse dabit virtutem et fortitudinem plebi suae. 
+        Ps. Exsurgat Deus, et dissipentur inimici eius : et fugiant, qui oderunt eum a facie eius.</Introitus>
+        <Communio Anno="A">Tolle puerum et matrem eius, et vade in terram Iuda: defuncti sunt enim, qui quaerebant animam pueri.</Communio>
+        <Communio Anno="B,C">Fili, quid fecisti nobis sic? Ego et pater tuus dolentes quaerebamus te. Quid est quod me quaerebatis? Nesciebatis quia in his quae Patris mei sunt oportet me esse?</Communio>
     </Catholic>
 
-    <Catholic Key="SILVESTER" Tempus="Tempus Nativitatis" Name="St. Silvester">
-    </Catholic>
+    <Catholic Key="SILVESTER" Tempus="Tempus Nativitatis" Name="St. Silvester" Day="31 December">
+        <Introitus>Sacerdotes tui, Domine, induant iustitiam, et sancti tui exsultent : propter David servum tuum, non avertas faciem Christi tui.</Introitus>
+        <Communio>Beatus servus quem cum venerit Dominus invenerit vigilantem : amen dico vobis, super omnia bona sua constituet eum.</Communio>
+     </Catholic>
 
-    <Catholic Key="SOLLEMNITAS_SANCTAE_DEI_GENETRICIS_MARIAE" Tempus="Tempus Nativitatis" Name="Sollemnitas Sanctae Dei Genetricis Mariae">
-        <Introitus>Salve sancta Parens, enixa puerpera Regem</Introitus>
-        <Communio></Communio>
+    <Catholic Key="SOLLEMNITAS_SANCTAE_DEI_GENETRICIS_MARIAE" Tempus="Tempus Nativitatis" Name="Sollemnitas Sanctae Dei Genetricis Mariae" Day="1 January">
+        <Introitus>Salve sancta parens enixa puerpera regem qui caelum terramque regit in secula seculorum. 
+        Ps. Eructavit cor meum verbum bonum : dico ego opera mea regi. 
+        Ps. Audi filia et vide et inclina aurem tuam. Et obliviscere populum tuum et domum patris tui. 
+        Ps. Et concupiscet rex speciem tuam. Quoniam ipse est Dominus tuus et adora eum.</Introitus>
+        <Communio>Exsulta filia Sion, lauda filia Ierusalem : ecce rex tuus venit sanctus, et Salvator mundi.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_II_POST_NATIVITATEM" Tempus="Tempus Nativitatis" Name="Dominica II Post Nativitatem">
-        <Introitus>Dum medium silentium tenerunt omnia</Introitus>
-        <Communio></Communio>
+        <Introitus>Dum medium silentium tenerent omnia : et nox in suo cursu medium iter haberet omnipotens sermo tuus, Domine, de caelis a regalibus sedibus venit. 
+        Ps. Dominus regnavit, decorem indutus est : indutus est Dominus fortitudinem, et praecinxit se.</Introitus>
+        <Communio>Domine Dominus noster, quam admirabile est nomen tuum in universa terra.</Communio>
     </Catholic>
 
     <Catholic Key="IN_EPIPHANIA_DOMINI" Tempus="Tempus Nativitatis" Name="In Epiphania Domini (Heilige Drei Könige)">
-        <Introitus> </Introitus>
-        <Communio></Communio>
+        <Introitus>Ecce advenit dominator Dominus : et regnum in manu eius et potestas et imperium. 
+        Ps. Deus, iudicium tuum regi da : et iustitiam tuam filio regis. 
+        Ps. Reges Tharsis et insulae munera offerunt (offerent) reges Arabum et Saba dona adducent. 
+        Ps. Et adorabunt eum omnes reges terrae : omnes gentes servient ei.</Introitus>
+        <Communio>Vidimus stellam eius in Oriente, et venimus cum muneribus adorare eum.</Communio>
     </Catholic>
 
     <Catholic Key="IN_BAPTISMATE_DOMINI" Tempus="Tempus Nativitatis" Name="In Baptismate Domini">
-        <Introitus>Ecce advenit dominator Dominus: et regnum in manu ejus</Introitus>
-        <Communio></Communio>
+        <Introitus>Dilexisti iustitiam, et odisti iniquitatem : propterea unxit te Deus, Deus tuus, oleo laetitiae prae consortibus tuis. 
+        Ps. Eructavit cor meum verbum bonum : dico ego opera mea regi.</Introitus>
+        <Communio>Omnes qui in Christo baptizati estis, Christum induistis.</Communio>
     </Catholic>
 
     <Catholic Key="CINERUM" Tempus="Tempus Quadragesimae" Name="Feria IV Cinerum" FriendlyName="Aschermittwoch">
-        <Introitus>Misereris omnium Domine, et nihil odisti eorum quae fecisti</Introitus>
-        <Communio></Communio>
+        <Introitus>Misereris omnium, Domine, et nihil odisti eorum quae fecisti : dissimulans peccata hominum propter paenitentiam, et parcens illis : quia tu es Dominus Deus noster.
+        Ps. Miserere mei Deus, miserere mei : quoniam in te confidit anima mea.</Introitus>
+        <Communio>Qui meditabitur in lege Domini die ac nocte, dabit fructum suum in tempore suo.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_I_QUADRAGESIMAE" Tempus="Tempus Quadragesimae" Name="Hebdomada Prima">
-        <Introitus>Invocabit me, et ego exaudiam eum</Introitus>
-        <Communio></Communio>
+        <Introitus>Invocabit me, et ego exaudiam eum : eripiam eum, et glorificabo eum : longitudine dierum adimplebo eum. 
+        Vers. Qui habitat in adiutorio Altissimi, in protectione Dei caeli commorabitur.</Introitus>
+        <Communio>Scapulis suis obumbrabit tibi Dominus, et sub pennis eius sperabis : scuto circumdabit te veritas eius.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_II_QUADRAGESIMAE" Tempus="Tempus Quadragesimae" Name="Hebdomada Secunda">
-        <Introitus>Reminiscere miserationum tuarum, Domine, et misericordiae tuae</Introitus>
-        <Communio></Communio>
+        <Introitus>Reminiscere miserationum tuarum, Domine, et misericordiae tuae, quae a saeculo sunt : ne unquam dominentur nobis inimici nostri : libera nos Deus Israel ex omnibus angustiis nostris.
+        Ps. Ad te, Domine, levavi animam meam : Deus meus, in te confido, non erubescam.</Introitus>
+        <Communio>Visionem quam vidistis, nemini dixeritis donec a mortuis resurgat Filius hominis.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_III_QUADRAGESIMAE" Tempus="Tempus Quadragesimae" Name="Hebdomada Tertia">
-        <Introitus>Oculi mei semper ad Dominum, quia ipse evellet de laqueo pedes meos</Introitus>
-        <Communio></Communio>
+        <Introitus>Oculi mei semper ad Dominum, quia ipse evellet de laqueo pedes meos : respice in me, et miserere mei, quoniam unicus et pauper sum ego.
+        Ps. Ad te, Domine, levavi animam meam : Deus meus, in te confido, non erubescam.</Introitus>
+        <Communio Anno="A">Qui biberit aquam, quam ego do, dicit Dominus Samaritanae, fiet in eo fons aquae salientis in vitam aeternam.</Communio>
+        <Communio Anno="B,C">Passer invenit sibi domum, et turtur nidum, ubi reponat pullos suos : altaria tua Domine virtutum, rex meus, et Deus meus : beati qui habitant in domo tua, in saeculum saeculi laudabunt te.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_IV_QUADRAGESIMAE" Tempus="Tempus Quadragesimae" Name="Hebdomada Quarta">
-        <Introitus>Laetare Jerusalem, et conventum facite omnes qui diligitis eam</Introitus>
-        <Communio></Communio>
+        <Introitus>Laetare Ierusalem, et conventum facite omnes qui diligitis eam : gaudete cum laetitia, qui in tristitia fuistis : ut exsultetis, et satiemini ab uberibus consolationis vestrae.
+        Ps. Laetatus sum in his quae dicta sunt mihi : in domum Domini ibimus.</Introitus>
+        <Communio Anno="A">Lutum fecit ex sputo Dominus et linivit oculos meos; et abii, et lavi, et vidi, et credidi Deo.</Communio>
+        <Communio Anno="B">Ierusalem quae aedificatur ut civitas, cuius participatio eius in idipsum : illuc enim ascenderunt tribus, tribus Domini, ad confitendum nomini tuo, Domine.</Communio>
+        <Communio Anno="C">Oportet te fili gaudere, quia frater tuus mortuus fuerat, et revixit : perierat, et inventus est.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_V_QUADRAGESIMAE" Tempus="Tempus Quadragesimae" Name="Hebdomada Quinta">
-        <Introitus>Judica me Deus, et discerne causam meam de gente non sancta</Introitus>
-        <Communio></Communio>
+        <Introitus>Iudica me, Deus, et discerne causam meam de gente non sancta : ab homine iniquo et doloso eripe me : quia tu es Deus meus, et fortitudo mea. 
+        Ps. Emitte lucem tuam, et veritatem tuam : ipsa me deduxerunt, et adduxerunt in montem sanctum tuum.</Introitus>
+        <Communio Anno="A">Videns Dominus flentes sorores Lazari ad monumentum, lacrimatus est coram Iudaeis et clamabat : Lazare, veni foras : et prodiit ligatis manibus et pedibus, qui fuerat quatriduanus mortuus.</Communio>
+        <Communio Anno="B">Qui mihi ministrat, me sequatur : et ubi ego sum, illic et minister meus erit.</Communio>
+        <Communio Anno="C">Nemo te condemnavit, mulier? Nemo, Domine. Nec ego te condemnabo : iam amplius noli peccare.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_IN_PALMIS_DE_PASSIONE_DOMINI" Tempus="Hebdomada Sancta" Name="Dominica In Palmis De Passione Domini" FriendlyName="Palmsonntag">
-        <Introitus></Introitus>
-        <Antiphon>Hosanna filio David: benedictus qui venit in nomine Domini</Antiphon>
-        <Graduale>Christus factus est pro nobis obediens usque ad mortem</Graduale>
-        <Communio></Communio>
+        <Antiphon>Hosanna Filio David benedictus qui venit in nomine Domini.</Antiphon>
+        <Graduale>Christus factus est pro nobis oboediens usque ad mortem, mortem autem crucis. 
+        Vers. Propter quod et Deus exaltavit illum et dedit illi nomen, quod est super omne nomen.</Graduale>
+        <Communio>Pater, si non potest hic calix transire, nisi bibam illum, fiat voluntas tua.</Communio>
     </Catholic>
 
     <Catholic Key="IN_CENA_DOMINE" Tempus="Hebdomada Sancta" Name="Missa Vespertina In Cena Domini" FriendlyName="Gründonnerstag">
-        <Introitus>Nos autem gloriari oportet in cruce Domini nostri Jesu Christi ... Ant: Dominus Iesus, postquam cenavit cum discipulis suis, lavit pedes eorum</Introitus>
-        <Communio></Communio>
+        <Introitus>Nos autem gloriari oportet in cruce Domini nostri Iesu Christi, in quo est salus, vita, et resurrectio nostra, per quem salvati et liberati sumus.
+        Ps. Deus misereatur nostri, et benedicat nobis : illuminet vultum suum super nos, et misereatur nostri.</Introitus>
+        <Communio>Hoc corpus, quod pro vobis tradetur : hic calix novi testamenti est in meo sanguine, dicit Dominus : hoc facite, quotiescumque sumitis, in meam commemorationem.</Communio>
     </Catholic>
 
     <Catholic Key="ADORATIO_SANCTAE_CRUCIS" Tempus="Hebdomada Sancta" Name="Adoratio Sanctae Crucis" FriendlyName="Karfreitag">
         <Introitus>Ecce lignum crucis, in quo salus mundi pependit ... Ant: Crucem tuam adoramus, Domine, et sanctam resurrectionem laudamus and glorificamus</Introitus>
-        <Communio></Communio>
+        <Graduale>Christus factus est pro nobis oboediens usque ad mortem, mortem autem crucis. 
+        Vers. Propter quod et Deus exaltavit illum et dedit illi nomen, quod est super omne nomen.</Graduale>
+        <Antiphon>Ecce lignum crucis, in quo salus mundi pependit : Venite adoremus.</Antiphon>
+        <Varia>Agios o Theos.Sanctus Deus. Agios ischyros. Sanctus fortis. Agios athanatos, eleison imas. Sanctus immortalis, miserere nobis.</Varia>
     </Catholic>
 
     <Catholic Key="VIGILIAM_PASCHALEM" Tempus="Tempus Paschale" Name="Vigiliam Paschale In Nocte Sancta" FriendlyName="Osternacht">
-        <Introitus>Jubilate Domino omnis terra: servite Domino in laettia ... Alleluia</Introitus>
-        <Communio></Communio>
+        <Tractus No="1">Iubilate Domino omnis terra : servite Domino in laetitia.        
+        Vers. Intrate in conspectu eius, in exsultatione.
+        Vers. Scitote quod Dominus ipse est Deus.
+        Vers. Ipse fecit nos, et non ipsi nos: nos autem populus eius, et oves pascuae eius.</Tractus>
+        <Tractus No="2">Qui confidunt in Domino sicut mons Sion non commovebitur in aeternum qui habitat in Ierusalem.
+        Vers. Montes in circuitu eius : et Dominus in circuitu populi sui, ex hoc nunc et usque in saeculum.</Tractus>
+        <Tractus No="3">Cantemus Domino : gloriose enim honorificatus est, equum et ascensorem proiecit in mare. Adiutor et protector factus est mihi Dominus in salutem.
+        Vers. Hic Deus meus, et honorabo eum : Deus patris mei, et exaltabo eum.</Tractus>
+        <Tractus No="4">Laudate Dominum, omnes gentes. Et collaudate eum, omnes populi. 
+        Vers. Quoniam confirmata est super nos misericordia eius : et veritas Domini manet in aeternum.</Tractus>
+        <Tractus No="5">Vinea facta est dilecto in cornu, in loco uberi.
+        Vers. Et maceriam circumdedit, et circumfodit : et plantavit vineam Sorec, et aedificavit turrim in medio eius.
+        Vers. Et torcular fodit in ea : vinea enim Domini Sabaoth, domus Israel est.</Tractus>
+        <Tractus No="6">Attende caelum, et loquar : et audiat terra verba ex ore meo. 
+        Vers. Exspectetur sicut pluvia eloquium meum : et descendant sicut ros verba mea, sicut imber super gramina. 
+        Vers. Et sicut nix super fenum : quia nomen Domini invocabo. 
+        Vers. Date magnitudinem Deo nostro : Deus, vera opera eius et omnes viae eius iudicia.
+        Vers. Deus fidelis in quo non est iniquitas : iustus et sanctus Dominus</Tractus>
+        <Tractus No="7">Sicut cervus desiderat ad fontes aquarum : ita desiderat anima mea ad te, Deus.
+        Vers. Sitivit anima mea ad Deum vivum : quando veniam et apparebo ante faciem Dei mei. 
+        Vers. Fuerunt mihi lacrimae meae panes die ac nocte, dum dicitur mihi per singulos dies : ubi est Deus tuus?</Tractus>
+        <Alleluia>Confitemini Domino, quoniam bonus : quoniam in saeculum misericordia eius.</Alleluia>
+        <Communio>Pascha nostrum immolatus est Christus, alleluia : itaque epulemur in azimis sinceritatis et veritatis.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_RESURRECTIONIS" Tempus="Tempus Paschale" Name="Dominica Resurrectionis">
-        <Introitus>Resurrexi et adhuc tecum sum, alleluia: posuisti super me manum tuam, alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Resurrexi, et adhuc tecum sum, alleluia : posuisti super me manum tuam, alleluia : mirabilis facta est scientia tua.
+        Ps. Domine, probasti me, et cognovisti me : tu cognovisti sessionem meam, et resurrectionem meam.</Introitus>
+        <Communio>Pascha nostrum immolatus est Christus, alleluia : itaque epulemur in azimis sinceritatis et veritatis.</Communio>
     </Catholic>
 
-    <Catholic Key="FERIA_II_INFRA_OCTAVAM_PASCHA" Tempus="Tempus Paschale" Name="Feria Secunda Infra Octavam Paschae">
+    <Catholic Key="FERIA_II_INFRA_OCTAVAM_PASCHAE" Tempus="Tempus Paschale" Name="Feria Secunda Infra Octavam Paschae">
         <Introitus>Introduxit vos Dominus in terram fluentem lac et mel, alleluia</Introitus>
-        <Communio></Communio>
+        <Communio>Surrexit Dominus, et apparuit Petro.</Communio>
     </Catholic>
 
-    <Catholic Key="FERIA_III_INFRA_OCTAVAM_PASCHA" Tempus="Tempus Paschale" Name="Feria Teria Infra Octavam Paschae">
+    <Catholic Key="FERIA_III_INFRA_OCTAVAM_PASCHAE" Tempus="Tempus Paschale" Name="Feria Teria Infra Octavam Paschae">
         <Introitus>Aqua sapientiae potavit eos, alleluia</Introitus>
-        <Communio></Communio>
+        <Communio>Si consurrexistis cum Christo quae sursum sunt quaerite, alleluia, ubi Christus est in dextera Dei sedens : quae sursum sunt sapite.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_II_PASCHAE" Tempus="Tempus Paschale" Name="Hebdomada Secunda">
-        <Introitus>Quasi modo geniti infantes, alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Quasi modo geniti infantes, alleluia : rationabiles, sine dolo lac concupiscite.
+        Ps. Exsultate Deo adiutori nostro.</Introitus>
+        <Communio>Mitte manum tuam, et cognosce loca clavorum alleluia : et noli esse incredulus sed fidelis.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_III_PASCHAE" Tempus="Tempus Paschale" Name="Hebdomada Tertia">
-        <Introitus>Jubilate Deo omnis terra, alleluia: psalmum dicite nomini ejus, alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Iubilate Deo omnis terra, alleluia : psalmum dicite nomini eius, date gloriam laudi eius. 
+        Ps. Dicite Deo, quam terribilia sunt opera tua, Domine, in multitudine virtutis tuae</Introitus>
+        <Communio Anno="A">Surrexit Dominus, et apparuit Petro.</Communio>
+        <Communio Anno="B">Cantate Domino, (et) benedicite nomen eius : bene nuntiate de die in diem salutare eius.</Communio>
+        <Communio Anno="C">Simon Ioannis, diligis me plus his? Domine, tu omnia nosti : tu scis, Domine, quia amo te.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_IV_PASCHAE" Tempus="Tempus Paschale" Name="Dominica Quarta">
-        <Introitus>Misericordia Domini plena est terra, alleluia: verbo Dei caeli firmati sund, alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Misericordia Domini plena est terra, alleluia : verbo Dei caeli firmati sunt. 
+        Ps. Exsultate iusti in Domino, rectos decet collaudatio.</Introitus>
+        <Communio>Ego sum pastor bonus, et cognosco oves meas, et cognoscunt me meae.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_V_PASCHAE" Tempus="Tempus Paschale" Name="Dominica Quinta">
-        <Introitus>Cantate Domino canticum novum, alleluia: quia mirabilia fecit Dominus, alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Cantate Domino canticum novum, alleluia : quia mirabilia fecit Dominus, alleluia : ante conspectum gentium revelavit iustitiam suam.
+        Ps. Salvavit sibi dextera eius : et brachium sanctum eius.</Introitus>
+        <Communio Anno="A">Tanto tempore vobiscum sum, et non cognovistis me? Philippe, qui videt me, videt et Patrem, alleluia : non credis quia ego in Patre, et Pater in me est?</Communio>
+        <Communio Anno="B,C">Ego sum vitis vera et vos palmites, qui manet in me et ego in eo, hic fert fructum multum.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_VI_PASCHAE" Tempus="Tempus Paschale" Name="Dominica Sexta">
-        <Introitus>Vocem jucunditatis annuntiate, et audiatur, alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Vocem iucunditatis annuntiate, et audiatur, alleluia : nuntiate usque ad extremum terrae : liberavit Dominus populum suum. 
+        Ps. Iubilate Deo omnis terra, alleluia : psalmum dicite nomini eius, date gloriam laudi eius.</Introitus>        
+        <Communio Anno="A">Non vos relinquam orphanos, veniam ad vos iterum, et gaudebit cor vestrum.</Communio>
+        <Communio Anno="B">Ego vos elegi de mundo, ut eatis, et fructum afferatis : et fructus vester maneat.</Communio>
+        <Communio Anno="C">Spiritus Sanctus docebit vos, alleluia : quaecumque dixero vobis.</Communio>
     </Catholic>
 
     <Catholic Key="IN_ASCENSIONE_DOMINI" Tempus="Tempus Paschale" Name="In Ascensione Domini" FriendlyName="Himmelfahrt">
-        <Introitus>Viri Galilaei, quid admiramini aspicientes in caelum? alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Viri Galilaei, quid admiramini aspicientes in caelum? Quemadmodum vidistis eum ascendentem in caelum. Ita veniet. 
+        Ps. Omnes gentes plaudite manibus : iubilate Deo in voce exsultationis.</Introitus>
+        <Communio Anno="A">Data est mihi omnis potestas in caelo et in terra, alleluia : euntes, docete omnes gentes, baptizantes eos in nomine Patris, et Filii, et Spiritus Sancti.</Communio>
+        <Communio Anno="B">Signa eos qui in me credunt, haec sequentur: daemonia eicient: super aegros manus imponent, et bene habebunt.</Communio>
+        <Communio Anno="C">Psallite Domino, qui ascendit super caelos caelorum ad Orientem.</Communio>
     </Catholic>
 
     <Catholic Key="HEBDOMADA_VII_PASCHAE" Tempus="Tempus Paschale" Name="Dominica Septima Paschae">
-        <Introitus>Exaudi, Domine, vocem mean, qua clamavi ad te, alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Exaudi, Domine, vocem meam, qua clamavi ad te, alleluia : tibi dixit cor meum, quaesivi vultum tuum, vultum tuum Domine requiram : ne avertas faciem tuam a me. 
+        Ps. Dominus illuminatio mea et salus mea : quem timebo ?</Introitus>
+        <Communio>Pater cum essem cum eis, ego servabam eos, quos dedisti mihi, alleluia : nunc autem ad te venio : non rogo ut tollas eos de mundo, sed ut serves eos a malo.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_PENTECOSTES" Tempus="Tempus Paschale" Name="Dominica Pentecostes">
-        <Introitus>Spiritus Domini replevit orbem terrarum, alleluia</Introitus>
-        <Communio></Communio>
+        <Introitus>Spiritus Domini replevit orbem terrarum, alleluia : et hoc quod continet omnia, scientiam habet vocis. 
+        Ps. Exsurgat Deus, et dissipentur inimici eius : et fugiant, qui oderunt eum a facie eius.</Introitus>
+        <Communio>Factus est repente de caelo sonus advenientis spiritus vehementis. Ubi erant sedentes, alleluia; et repleti sunt omnes Spiritu Sancto, loquentes magnalia Dei.</Communio>
+    </Catholic>
+    
+    <Catholic Key="SANCTISSIMAE_TRINITATIS" Tempus="Tempus Paschale" Name="">
+        <Introitus>Benedicta sit sancta Trinitas, atque indivisa Unitas, confitebimur ei : quia fecit nobiscum misericordiam suam. 
+        Ps. Benedicamus Patrem et Filium cum Sancto Spiritu. 
+        Ps. Domine Dominus noster, quam admirabile est nomen tuum in universa terra.</Introitus>
+        <Communio>Benedicimus Deum caeli, et coram omnibus viventibus confitebimur ei : quia fecit nobiscum misericordiam suam.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_II_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica II">
-        <Introitus>Omnis terra adoret te, Deus, et psallat tibi</Introitus>
-        <Communio></Communio>
+        <Introitus>Omnis terra adoret te, Deus, et psallat tibi : psalmum dicat nomini tuo, Altissime. 
+        Ps. Iubilate Deo omnis terra, psalmum dicite nomini eius : date gloriam laudi eius.</Introitus>
+        <Communio Annno="A">Laetabimur in salutari tuo : et in nomine Domini Dei nostri magnificabimur.</Communio>
+        <Communio Annno="B">Dixit Andreas Simoni fratri suo : Invenimus Messiam, qui dicitur Christus.</Communio>
+        <Communio Annno="C">Dicit Dominus : implete hydrias aqua et ferte architriclino. Cum gustasset architriclinus aquam vinum factam, dicit sponso : servasti vinum bonum usque adhuc. Hoc signum fecit Iesus primum coram discipulis suis.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_III_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica III">
-        <Introitus>Adorate Deum omnes Angeli ejus: audivit, et laetata est Sion</Introitus>
-        <Communio></Communio>
+        <Introitus>Adorate Deum omnes angeli eius : audivit, et laetata est Sion : et exsultaverunt filiae Iudae. 
+        Ps. Dominus regnavit, exsultet terra : laetentur insulae multae.</Introitus>
+        <Communio>Mirabantur omnes de his quae procedebant de ore Dei.</Communio>
+        <Communio Anno="A,B">Venite post me : faciam vos piscatores hominum : at illi, relictis retibus et navi, secuti sunt Dominum.</Communio>
+        <Communio Anno="C">Comedite pinguia, et bibite mulsum, et mittite partes eis qui non praeparaverunt sibi : sanctus enim dies Domini est, nolite contristari : gaudium etenim Domini est fortitudo nostra.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_IV_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica IV">
-        <Introitus>Laetetur cor quaerentium Dominim: quaerite Dominum</Introitus>
-        <Communio></Communio>
+        <Introitus>Laetetur cor quaerentium Dominum : quaerite Dominum, et confirmamini : quaerite faciem eius semper. 
+        Ps. Confitemini Domino, et invocate nomen eius : annuntiate inter gentes opera eius.</Introitus>
+        <Communio>Illumina faciem tuam super servum tuum, et salvum me fac in tua misericordia : Domine, non confundar, quoniam invocavi te.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_V_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica V">
-        <Introitus>Venite, audoremus Deum, et procidamus ante Dominum</Introitus>
-        <Communio></Communio>
+        <Introitus>Venite, adoremus Deum et procidamus ante Dominum : ploremus ante eum, qui fecit nos : quia ipse est Dominus Deus noster. 
+        Ps. Venite, exsultemus Domino : iubilemus Deo salutari nostro.</Introitus>
+        <Communio Anno="A,C">Introibo ad altare Dei, ad Deum qui laetificat iuventutem meam.</Communio>
+        <Communio Anno="B">Multitudo languentium, et qui vexabantur a spiritibus immundis, veniebant ad eum : quia virtus de illo exibat, et sanabat omnes.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_VI_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica VI">
-        <Introitus>Esto mihi in Deum protectorem, et in locum refugii, ut salvum me facias</Introitus>
-        <Communio></Communio>
+        <Introitus>Esto mihi in Deum protectorem, et in locum refugii : ut salvum me facias. Quoniam firmamentum meum, et refugium meum es tu : et propter nomen tuum dux mihi eris, et enutries me. 
+        Ps. In te, Domine, speravi, non confundar in aeternum : in iustitia tua libera me</Introitus>
+        <Communio>Manducaverunt, et saturati sunt nimis, et desiderium eorum attulit eis Dominus : non sunt fraudati a desiderio suo.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_VII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica VII">
-        <Introitus>Domine, in tua misericordia speravi: exsultavit cor meum in salutari tuo: cantabo Domino</Introitus>
-        <Communio></Communio>
+        <Introitus>Domine, in tua misericordia speravi : exsultavit cor meum in salutari tuo : cantabo Domino, qui bona tribuit mihi. 
+        Ps. Usquequo Domine oblivisceris me in finem? usquequo avertis faciem tuam a me?</Introitus>
+        <Communio>Narrabo omnia mirabilia tua : laetabor et exsultabo in te : psallam nomini tuo, Altissime.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_VIII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica VIII">
-        <Introitus>Factus est Dominus protector meus, et eduxit me in latitudinem: salvum me facit</Introitus>
-        <Communio></Communio>
+        <Introitus>Factus est Dominus protector meus, et eduxit me in latitudinem : salvum me fecit, quoniam voluit me. 
+        Ps. Diligam te Domine, fortitudo mea (virtus mea) : Dominus firmamentum meum, et refugium meum(,et liberator meus).</Introitus>
+        <Communio>Cantabo Domino, qui bona tribuit mihi. Et psallam nomini Domini altissimi.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_IX_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica IX">
-        <Introitus>Respice in me, et miserere mei, Domine</Introitus>
-        <Communio></Communio>
+        <Introitus>Respice in me et miserere mei, Domine : quoniam unicus et pauper sum ego : vide humilitatem meam et laborem meum : et dimitte omnia peccata mea, Deus meus. 
+        Ps. Ad te, Domine, levavi animam meam : Deus meus, in te confido, non erubescam.</Introitus>
+        <Communio>Ego clamavi, quoniam exaudisti me, Deus : inclina aurem tuam, et exaudi verba mea</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_X_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica X">
-        <Introitus>Dominus illuminatio mea, et salus mea, quem timebo?</Introitus>
-        <Communio></Communio>
+        <Introitus>Dominus illuminatio mea, et salus mea, quem timebo? Dominus defensor vitae meae, a quo trepidabo? qui tribulant me inimici mei, infirmati sunt, et ceciderunt. 
+        Ps. Si consistant adversum me castra : non timebit cor meum.</Introitus>
+        <Communio>Dominus firmamentum meum, et refugium meum, et liberator meus : Deus meus adiutor meus.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XI_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XI">
-        <Introitus>Exaudi Domine vocem meam, qua clamavi ad te: adjutor meus esto, ne derelinquas me</Introitus>
-        <Communio></Communio>
+        <Introitus>Exaudi, Domine,vocem meam, qua clamavi ad te : adiutor meus esto, ne derelinquas me, neque despicias me, Deus salutaris meus. 
+        Ps. Dominus illuminatio mea et salus mea : quem timebo ?</Introitus>
+        <Communio>Unam petii a Domino, hanc requiram : ut inhabitem in domo Domini omnibus diebus vitae meae. 
+        Vers. Ut videam voluptatem Domini : et protegar a templo sancto eius.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XII">
-        <Introitus>Dominus fortitudo plebis suae, et protector salutarium Christi sui est: salvum fac populum tuum, Domine</Introitus>
-        <Communio></Communio>
+        <Introitus>Dominus fortitudo plebis suae, et protector salutarium Christi sui est : salvum fac populum tuum, Domine, et benedic hereditati tuae, et rege eos usque in saeculum. 
+        Ps. Ad te, Domine, clamabo, Deus meus, ne sileas a me : ne quando taceas a me et assimilabor descentibus in lacum.</Introitus>
+        <Communio Anno="A">Quod dico vobis in tenebris, dicite in lumine, dicit Dominus : et quod in aure auditis, praedicate super tecta.</Communio>
+        <Communio Anno="B">Circuibo, et immolabo in tabernaculo eius hostiam iubilationis : cantabo, et psalmum dicam Domino.</Communio>
+        <Communio Anno="C">Qui vult venire post me, abneget semetipsum et tollat crucem suam, et sequatur me.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XIII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XIII">
-        <Introitus>Omnes gentes plaudite manibus: jubilate Deo in voce exsultationis</Introitus>
-        <Communio></Communio>
+        <Introitus>Omnes gentes plaudite manibus : iubilate Deo in voce exsultationis. 
+        Ps. Quoniam Dominus excelsus (summus) terribilis : rex magnus super omnem terram.</Introitus>
+        <Communio>Inclina aurem tuam, accelera, ut eruas nos.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XIV_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XIV">
-        <Introitus>Suscepimus, Deus, misericordiam tuam in medio templi tui: secundum nomen tuum Deus</Introitus>
-        <Communio></Communio>
+        <Introitus>Suscepimus, Deus, misericordiam tuam in medio templi tui. Secundum nomen tuum, Domine (Deus), ita et laus tua in fines terrae. Iustitia plena est dextera tua. 
+        Ps. Magnus Dominus, et laudabilis nimis, in civitate Dei, in monte sancto eius.</Introitus>
+        <Communio>Gustate et videte, quoniam suavis est Dominus : beatus vir, qui sperat in eo.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XV_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XV">
-        <Introitus>Dum clamarem ad Dominum, exaudivit vocem meam, ab his qui appropinquant mihi</Introitus>
-        <Communio></Communio>
+        <Introitus>Dum clamarem ad Dominum, exaudivit vocem meam ab his qui appropinquant mihi. Et humiliavit eos, qui est ante saecula, et manet in aeternum. Iacta cogitatum tuum in Domino, et ipse te enutriet. 
+        Ps. Exaudi, Deus, orationem meam, et ne despexeris deprecationem meam : intende in me et exaudi me.</Introitus>
+        <Communio>Passer invenit sibi domum, et turtur nidum, ubi reponat pullos suos : altaria tua Domine virtutum, rex meus, et Deus meus : beati qui habitant in domo tua, in saeculum saeculi laudabunt te.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XVI_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XVI">
-        <Introitus>Ecce Deus adjuvat me, et Dominus susceptor est animae meae: averte mala inimicis meis</Introitus>
-        <Communio></Communio>
+        <Introitus>Ecce Deus adiuvat me, et Dominus susceptor est animae meae : averte mala inimicis meis, in veritate tua disperde illos, protector meus Domine. 
+        Ps. Deus in nomine tuo salvum me fac, et in virtute tua iudica me.</Introitus>
+        <Communio>Acceptabis sacrificium iustitiae, oblationes et holocausta, super altare tuum, Domine.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XVII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XVII">
-        <Inroitus>In Deo speravit cor meum, et adjutus sum: et refloruit caro mea</Inroitus>
-        <Communio></Communio>
+        <Inroitus>In Deo speravit cor meum, et adiutus sum : et refloruit caro mea : et ex voluntate mea : confitebor illi. 
+        Vers. Ad te, Domine, clamavi : Deus meus, ne sileas : ne discedas a me.</Inroitus>
+        <Communio Anno="A">Simile est regnum caelorum homini negotiatori, quaerenti bonas margaritas; inventa una pretiosa margarita, dedit omnia sua et comparavit eam.</Communio>
+        <Communio Anno="B">Honora Dominum de tua substantia, et de primitiis frugum tuarum : ut impleantur horrea tua saturitate, et vino torcularia redundabunt.</Communio>
+        <Communio Anno="C">Petite et accipietis quaerite et invenietis, pulsate et aperietur vobis. Omnis enim qui petit accipit, et qui quaerit invenit, pulsanti aperietur.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XVIII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XVIII">
-        <Introitus>Deus in adjutorium meum intende: Domine ad adjuvandum me festina: confundantur et revereantur inimici mei</Introitus>
-        <Communio></Communio>
+        <Introitus>Deus in adiutorium meum intende : Domine ad adiuvandum me festina. Confundantur et revereantur inimici mei qui quaerunt animam meam. 
+        Ps. Avertantur retrorsum et erubescant, qui volunt mihi mala.</Introitus>
+        <Communio>Panem de caelo dedisti nobis, Domine, habentem omne delectamentum, et omnem saporem suavitatis.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XIX_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XIX">
-        <Introitus>Respice, Domine, in testamentum tuum, et animas pauperum tuorum ne derelinquas in finem</Introitus>
-        <Communio></Communio>
+        <Introitus>Respice, Domine, in testamentum tuum, et animas pauperum tuorum ne derelinquas in finem : Exsurge Domine, et iudica causam tuam : et ne obliviscaris voces quaerentium te. 
+        Ps. Ut quid Deus repulisti in finem : iratus est furor tuus super oves pascuae tuae?</Introitus>
+        <Communio>Panis, quem ego dedero, caro mea est pro saeculi vita.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XX_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XX">
-        <Introitus>Protector noster aspice, Deus, et respice in faciem Christi tui</Introitus>
-        <Communio></Communio>
+        <Introitus>Protector noster aspice, Deus, et respice in faciem Christi tui : quia melior est dies una in atriis tuis super milia. 
+        Ps. Quam dilecta tabernacula tua, Domine, virtutum! concupiscit et deficit anima mea in atria Domini.</Introitus>
+        <Communio>Primum quaerite regnum Dei, et omnia adicientur vobis, dicit Dominus.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXI_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXXI">
-        <Introitus>Inclina, Domine, aurem tuam ad me, et exaudi me: salvum fac servum tuum, Deus meus, sperantem in te</Introitus>
-        <Communio></Communio>
+        <Introitus>Inclina, Domine, aurem tuam ad me, et exaudi me : salvum fac servum tuum, Deus meus, sperantem in te : miserere mihi, Domine, quoniam ad te clamavi tota die. 
+        Ps. Laetifica animam servi tui : quoniam ad te, Domine, animam meam levavi.</Introitus>
+        <Communio>De fructu operum tuorum, Domine, satiabitur terra : ut educas panem de terra, et vinum laetificet cor hominis : ut exhilaret faciem in oleo, et panis cor hominis confirmet.</Communio>
+        <Translation>Psalm 103  Vers 13-15: Von der Frucht deiner Werke, Herr, wird die Erde satt. Du lässt Brot wachsen aus der Erde und Wein, damit er das Herz des Menschen erfreue, und damit sein Angesicht glänzend werde vom Öl, und Brot das Herz des Menschen stärke.</Translation>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXII">
-        <Introitus>Miserere mihi Domine, quoniam ad te clamavi tota die: quia tu Domine suavis ac mitis es, et copiosus in misericordia omnibus invocantibus te</Introitus>
-        <Communio></Communio>
+        <Introitus>Miserere mihi Domine, quoniam ad te clamavi tota die : quia tu Domine suavis ac mitis es, et copiosus in misericordia omnibus invocantibus te. 
+        Ps. Inclina, Domine, aurem tuam, et exaudi me : quoniam inops, et pauper sum ego.</Introitus>
+        <Communio Anno="A,B">Domine, memorabor iustitiae tuae solius : Deus, docuisti me a iuventute mea, et usque in senectam et senium, Deus, ne derelinquas me.</Communio>
+        <Communio Anno="C">Qui vult venire post me, abneget semetipsum et tollat crucem suam, et sequatur me.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXIII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXIII">
-        <Introitus>Justus es Domine, et rectum judicium tuum: fac com servo tuo secundum misericordiam tuam</Introitus>
-        <Communio></Communio>
+        <Introitus>Iustus es Domine, et rectum iudicium : fac cum servo tuo secundum misericordiam tuam. 
+        Ps. Beati immaculati in via : qui ambulant in lege Domini.</Introitus>
+        <Communio>Vovete, et reddite Domino Deo vestro, omnes qui in circuitu eius affertis munera terribili, et ei qui aufert spiritum principum : terribili apud omnes reges terrae.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXIV_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXIV">
-        <Introitus>Da pacem, Domine, sustinentibus te, ut prophetae tui fideles inveniantur: exaudi preces servi tui</Introitus>
-        <Communio></Communio>
+        <Introitus>Da pacem, Domine, sustinentibus te, ut prophetae tui fideles inveniantur : exaudi preces servi tui, et plebis tuae Israel. 
+        Ps. Laetatus sum in his quae dicta sunt mihi : in domum Domini ibimus.</Introitus>
+        <Communio Anno="A">Tollite hostias et introite in atria eius : adorate Dominum in aula sancta eius. 
+        Vers. Revelavit Dominus condensa, et in templo eius omnes dicent gloriam.</Communio>
+        <Communio Anno="B">Qui vult venire post me, abneget semetipsum et tollat crucem suam, et sequatur me.</Communio>
+        <Communio Anno="C">Dico vobis: Gaudium est angelis Dei super uno peccatore paenitentiam agente.</Communio>
+        <Translation>Nehmt Opfergaben und tretet ein in sein Heiligtum! Betet den Herrn an in seiner heiligen Halle. Der Herr hat die Wälder gelichtet und in seinem Tempel sprechen alle von seiner Herrlichkeit.</Translation>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXV_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXV">
-        <Introitus>Salus populi ego sum, dicit Dominus: de quacumque tribulatione clamaverint ad me, exaudiam eos</Introitus>
-        <Communio></Communio>
+        <Introitus>Salus populi ego sum, dicit Dominus : de quacumque tribulatione clamaverint ad me, exaudiam eos : et ero illorum Dominus in perpetuum. 
+        Ps. Attendite popule meus legem meam : inclinate aurem vestram in verba oris mei.</Introitus>
+        <Communio>Tu mandasti mandata tua custodiri nimis : utinam dirigantur viae meae, ad custodiendas iustificationes tuas.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXVI_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXVI">
-        <Introitus>Omnia quae fecisti nobis, Domine, in vero judicio fecisti, quia peccavimus tibi</Introitus>
-        <Introitus Year="A">In nomine Domini omne genu flectatur, caelestium, terrestrium et infernorum. quia Dominus factus obediens usque ad mortem, mortem autem crucis: ideo Dominus Jesus Christus in gloria est Dei Patris. Ps. Domine exaudi orationem meam: et clamor meus ad te veniat.</Introitus>
-        <Communio></Communio>
+        <Introitus Anno="A">In nomine Domini omne genu flectatur, caelestium, terrestrium et infernorum : quia Dominus factus oboediens usque ad mortem, mortem autem crucis : ideo Dominus Iesus Christus in gloria est Dei Patris. 
+        Ps. Domine exaudi orationem meam et clamor meus ad te veniat.</Introitus>
+        <Introitus Anno="B,C">Omnia quae fecisti nobis, Domine, in vero iudicio fecisti, quia peccavimus tibi, et mandatis tuis non obedivimus : sed da gloriam nomini tuo, et fac nobiscum secundum multitudinem misericordiae tuae. 
+        Ps. Beati immaculati in via : qui ambulant in lege Domini. 
+        Ps. Magnus Dominus, et laudabilis nimis, in civitate Dei, in monte sancto eius.</Introitus>
+        <Communio>Memento verbi tui servo tuo, Domine, in quo mihi spem dedisti : haec me consolata est in humilitate mea.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXVII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXVII">
-        <Introitus>In voluntate tua, Domine, universa sunt posita, et non est qui possit resistere voluntati tuae</Introitus>
-        <Communio></Communio>
+        <Introitus>In voluntate tua, Domine, universa sunt posita : et non est qui possit resistere voluntati tuae : tu enim fecisti omnia, caelum et terram, et universa quae caeli ambitu continentur: Dominus universorum tu es. 
+        Ps. Beati immaculati in via : qui ambulant in lege Domini.</Introitus>
+        <Communio>In salutari tuo anima mea, et in verbum tuum speravi : quando facies de persequentibus me iudicium? iniqui persecuti sunt me, adiuva me, Domine Deus meus.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXVIII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXVIII">
-        <Introitus>Ecce quam bonum, et quam jucundum habitare fratres in unum!</Introitus>
-        <Communio></Communio>
+        <Introitus>Ecce quam bonum et quam iucundum habitare fratres in unum. 
+        Vers. 1 Sicut unguentum in capite, quod descendit in barbam, barbam Aaron.</Introitus>
+        <Communio>Aufer a me opprobrium et contemptum, quia mandata tua exquisivi, Domine : nam et testimonia tua meditatio mea est.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXIX_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXIX">
-        <Introitus>Ego clamavi, quoniam exaudisti me, Deus: inclina aurem tuam, et exaudi verba mea</Introitus>
-        <Communio></Communio>
+        <Introitus>Ego clamavi, quoniam exaudisti me, Deus : inclina aurem tuam, et exaudi verba mea : custodi me, Domine, ut pupillam oculi : sub umbra alarum tuarum protege me. 
+        Ps. Exaudi Domine iustitiam meam : intende deprecationem meam.</Introitus>
+        <Communio>Domine, Dominus noster, quam admirabile est nomen tuum in universa terra!</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXX_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXX">
-        <Introitus>Clamaverunt justi, et Dominus exaudivit eos: et ex omnibus tribulationibus eorum liberavit eos.</Introitus>
-        <Communio></Communio>
+        <Introitus>Clamaverunt iusti, et Dominus exaudivit eos. 
+        Ps. Semper laus eius in ore meo.</Introitus>
+        <Communio>Laetabimur in salutari tuo : et in nomine Domini Dei nostri magnificabimur.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXXI_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXXI">
-        <Introitus>Ne derelinquas me, Domine Deus meus, ne discedas a me: intende in adjutorium meum, Domine virtus salutis meae. Ps. Domine, ne in furore tuo arguas me: neque in ira tua corripias me.</Introitus>
-        <Introitus Year="C">Misereris omnium, Domine, et nihil odisti eorum quae fecisti, dissimulans peccata hominum propter paenitentiam, et parcens illis: quia tu es Dominus Deus noster. Ps. Miserere mei Deus, miserere mei: quoniam in te confidit anima mea.</Introitus>
-        <Communio></Communio>
+        <Introitus Anno="A,B">Ne derelinquas me, Domine, Deus meus, ne discedas a me : intende in adiutorium meum, Domine virtus salutis meae. 
+        Ps. Domine, ne in furore tuo arguas me : neque in ira tua corripias me.</Introitus>
+        <Introitus Anno="C">Misereris omnium, Domine, et nihil odisti eorum quae fecisti, dissimulans peccata hominum propter paenitentiam, et parcens illis : quia tu es Dominus Deus noster. 
+        Ps. Miserere mei Deus, miserere mei : quoniam in te confidit anima mea.</Introitus>
+        <Communio>Notas mihi fecisti Domine vias vitae : adimplebis me laetitia cum vultu tuo, Domine.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXXII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXXII">
-        <Introitus>Intret oratio mea in conspectu tuo: inclina aurem tuam ad precem meam, Domine.</Introitus>
-        <Communio></Communio>
+        <Introitus>Intret oratio mea in conspectu tuo : inclina aurem tuam ad precem meam Domine. 
+        Ps. Domine Deus salutis meae, in die clamavi, et nocte coram te.</Introitus>
+        <Communio>Dominus regit me, et nihil mihi deerit : in loco pascuae ibi me collocavit : super aquam refectionis educavit me.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_XXXIII_PER_ANNUM" Tempus="Tempus per Annum" Name="Dominica XXXIII">
-        <Introitus>Dicit Dominus: Ego cogito cogitationes pacis, et non afflicionis: invocabitis me, et ego exaudiam vos</Introitus>
-        <Communio></Communio>
+        <Introitus>Dicit Dominus, ego cogito cogitationes pacis, et non afflictionis : invocabitis me, et ego exaudiam vos : et reducam captivitatem vestram de cunctis locis. 
+        Ps. Benedixisti, Domine, terram tuam. Avertisti captivitatem Iacob.</Introitus>
+        <Communio Anno="A">Domine, quinque talenta tradidisti mihi : ecce alia quinque superlucratus sum. Euge serve fidelis quia in pauca fuisti fidelis, supra (super) multa te constituam, intra in gaudium Domini tui.</Communio>
+        <Communio Anno="B,C">Amen dico vobis, quidquid orantes petitis, credite quia accipietis, et fiet vobis.</Communio>
     </Catholic>
 
     <Catholic Key="DOMINICA_ULTIMA_PER_ANNUM" Tempus="Tempus per Annum" Name="Domino Nostro Iesu Christi Universorum Regis">
-        <Introitus>Ignus est Agnus, qui occisus est, accipere virtutem, et divinitatem, et sapientiam, et fortitudinem, et honorem.</Introitus>
-        <Communio></Communio>
+        <Introitus>Dignus est Agnus qui occisus est : accipere virtutem, et divinitatem, et sapientiam, et fortitudinem, et honorem. Ipsi gloria et imperium in saecula saeculorum. 
+        Ps. Deus, iudicium tuum regi da : et iustitiam tuam filio regis.</Introitus>
+        <Communio>Sedebit Dominus rex in aeternum : Dominus benedicet populo suo in pace.</Communio>
     </Catholic>
 
-    <Catholic Key="ALLERHEILIGEN" Tempus="Tempus per Annum" Name="Omnium Sanctorum" FriendlyName="Allerheiligen">
-        <Introitus>Gaudemus omnes in Domino, diem festum celebrantes sub honore Sanctorum omnium</Introitus>
-        <Communio></Communio>
+    <Catholic Key="OMNIUM_SANCTORUM" Tempus="Tempus per Annum" Name="Omnium Sanctorum" FriendlyName="Allerheiligen">
+        <Introitus>Gaudeamus omnes in Domino, diem festum celebrantes sub honore Sanctorum omnium : de quorum solemnitate gaudent angeli, et collaudant Filium Dei. 
+        Ps. Exsultate iusti in Domino, rectos decet collaudatio.</Introitus>
+        <Communio>Beati mundo corde, quoniam ipsi Deum videbunt : Beati pacifici, quoniam filii Dei vocabuntur : Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum.</Communio>
         <Link>https://de.wikipedia.org/wiki/Allerheiligen</Link>
     </Catholic>
 
-    <Catholic Key="ALLERSEELEN" Tempus="Tempus per Annum" Name="In commemoratione omnium fidelium defunctorum" FriendlyName="Allerseelen">
-        <Introitus>Requiem in aeternam dona eis Domine: et lux perpetua luceat eis.</Introitus>
-        <Communio></Communio>
+    <Catholic Key="OMNIUM_FIDELIUM_DEFUNCTORUM" Tempus="Tempus per Annum" Name="In commemoratione omnium fidelium defunctorum" FriendlyName="Allerseelen">
+        <Introitus>Requiem aeternam dona eis, Domine: et lux perpetua luceat eis. 
+        Ps. Te decet hymnus, Deus, in Sion : et tibi reddetur votum in Ierusalem. 
+        Ps. Exaudi orationem meam ad te omnis caro veniet.</Introitus>
+        <Communio>Lux aeterna luceat eis, Domine, cum sanctis tuis in aeternum : quia pius es.</Communio>
         <Link>https://de.wikipedia.org/wiki/Allerseelen</Link>
     </Catholic>
 

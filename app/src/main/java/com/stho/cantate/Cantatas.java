@@ -1,47 +1,41 @@
 package com.stho.cantate;
 
-import android.util.ArrayMap;
+import android.util.SparseArray;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.Map;
 
 public class Cantatas {
-    private HashMap<String, Cantate> cantatas = new HashMap<>();
-    private HashMap<String, ArrayList<String>> lookupTable = new HashMap<>();
+    private HashMap<String, Cantate> cantatasByBwv = new HashMap<>();
+    private SparseArray<ArrayList<String>> bwvsBySunday = new SparseArray<>();
 
     Cantate getCantate(String bwv) {
-        Cantate cantate = cantatas.get(bwv);
+        Cantate cantate = cantatasByBwv.get(bwv);
         if (cantate == null) {
-            cantate = new Cantate(bwv);
-            cantatas.put(bwv, cantate);
+            cantate = new Cantate(this, bwv);
+            cantatasByBwv.put(bwv, cantate);
         }
         return cantate;
     }
 
-    void setOccasion(@SundayAnnotation.Sunday String occasion, String bwv) {
-        ArrayList<String> list = lookupTable.get(occasion);
-        if (list == null) {
-            list = new ArrayList<>();
-            lookupTable.put(occasion, list);
+    void setOccasion(@EvangelicSundayAnnotation.Sunday int occasion, String bwv) {
+        ArrayList<String> bwvs = bwvsBySunday.get(occasion);
+        if (bwvs == null) {
+            bwvs = new ArrayList<>();
+            bwvsBySunday.put(occasion, bwvs);
         }
-        list.add(bwv);
+        bwvs.add(bwv);
     }
 
-    ArrayList<Cantate> getCantatasFor(@SundayAnnotation.Sunday String occasion) {
-        ArrayList<Cantate> array = new ArrayList<>();
-        ArrayList<String> list = lookupTable.get(occasion);
-        if (list != null) {
-            for (String bwv : list) {
-                Cantate cantate = getCantate(bwv);
-                if (cantate == null) {
-                    cantate = new Cantate(bwv);
-                }
-                array.add(cantate);
+    ArrayList<Cantate> getCantatasFor(@EvangelicSundayAnnotation.Sunday int occasion) {
+        ArrayList<Cantate> cantatas = new ArrayList<>();
+        ArrayList<String> bwvs = bwvsBySunday.get(occasion);
+        if (bwvs != null) {
+            for (String bwv : bwvs) {
+                cantatas.add(getCantate(bwv));
             }
         }
-        return array;
+        return cantatas;
     }
 }
 

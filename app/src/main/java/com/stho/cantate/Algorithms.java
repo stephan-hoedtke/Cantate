@@ -149,7 +149,7 @@ class Algorithms {
             2019 before advent --> "C"
             2019 after advent --> "A"
      */
-    static @CatholicLiturgicalYearAnnotation.Year String getLiturgicalYear(int year, int dayInYear, Calendar advent) {
+    static @CatholicLiturgicalYearAnnotation.Year int getLiturgicalYear(int year, int dayInYear, Calendar advent) {
         if (dayInYear >= advent.get(Calendar.DAY_OF_YEAR)) {
             year++;
         }

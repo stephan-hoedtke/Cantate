@@ -1,17 +1,15 @@
 package com.stho.cantate;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.stho.cantate.databinding.CantataListItemBinding;
+import com.stho.cantate.ui.HomeFragment;
 
 import java.util.ArrayList;
 
@@ -21,6 +19,11 @@ import java.util.ArrayList;
  */
 public class CantataListAdapter extends RecyclerView.Adapter<CantataListAdapter.ViewHolder> {
     private ArrayList<Cantate> cantatas = null;
+    private final ICantateItemListener listener;
+
+    public interface ICantateItemListener {
+        void onClick(String bwv);
+    }
 
     class ViewHolder extends RecyclerView.ViewHolder {
         private CantataListItemBinding binding;
@@ -31,8 +34,9 @@ public class CantataListAdapter extends RecyclerView.Adapter<CantataListAdapter.
         }
     }
 
-    public CantataListAdapter() {
+    public CantataListAdapter(final ICantateItemListener listener) {
         // cannot set the list cantatas yet, as it is live data.
+        this.listener = listener;
     }
 
     // Usually involves inflating a layout from XML and returning the holder
@@ -46,7 +50,14 @@ public class CantataListAdapter extends RecyclerView.Adapter<CantataListAdapter.
     // Involves populating data into the item through holder
     @Override
     public void onBindViewHolder(CantataListAdapter.ViewHolder viewHolder, int position) {
-        viewHolder.binding.setCantate(cantatas.get(position));
+        Cantate cantate = cantatas.get(position);
+        viewHolder.binding.setCantate(cantate);
+        viewHolder.binding.cardViewCantate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                listener.onClick(cantate.getBWV());
+            }
+        });
     }
 
     @Override

@@ -1,27 +1,24 @@
 package com.stho.cantate.ui;
 
 import android.os.Bundle;
-import android.util.Log;
-import android.view.GestureDetector;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
-import androidx.core.view.GestureDetectorCompat;
+import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
-import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.stho.cantate.CantataListAdapter;
 import com.stho.cantate.Cantate;
 import com.stho.cantate.HomeFragmentViewModel;
-import com.stho.cantate.R;
+import com.stho.cantate.HomePagerAdapter;
+import com.stho.cantate.MainNavigator;
 import com.stho.cantate.MainViewModel;
+import com.stho.cantate.R;
 import com.stho.cantate.Sunday;
 import com.stho.cantate.databinding.FragmentHomeBinding;
 
@@ -29,7 +26,7 @@ import java.util.ArrayList;
 
 public class HomeFragment extends Fragment {
 
-    private static final String POSITION_PARAMETER = "POSITION";
+    private static final String PARAMETER_POSITION = "POSITION";
 
     private HomeFragmentViewModel viewModel;
     private FragmentHomeBinding binding;
@@ -39,24 +36,36 @@ public class HomeFragment extends Fragment {
         // need public default constructor
     }
 
+    /*
+      The home fragment is bound to its position through the viewmodel and therefore bound to a fixed day.
+      Scrolling through days is managed by the pager adapter, which creates new fragments for every day.
+     */
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         viewModel = createViewModel(getPositionParameter());
-        adapter = new CantataListAdapter();
     }
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        adapter = new CantataListAdapter(new CantataListAdapter.ICantateItemListener() {
+            @Override
+            public void onClick(String bwv) {
+                int position = viewModel.getPosition();
+                viewModel.setCurrentPosition(position);
+                MainNavigator.build(getActivity()).openCantate(bwv);
+            }
+        });
         binding = DataBindingUtil.inflate(getLayoutInflater(), R.layout.fragment_home, container, false);
-        viewModel.getNextSundayLD().observe(this, this::setSunday);
-        viewModel.getCantatasLD().observe(this, this::setCantatas);
         binding.list.setAdapter(adapter);
         binding.list.setLayoutManager(new LinearLayoutManager(getContext()));
         binding.list.setHasFixedSize(true);
         binding.cardViewCatholic.setOnClickListener(v -> {
-            // TODOs
-            // Navigation.findNavController(v).navigate(...);
+            int position = viewModel.getPosition();
+            viewModel.setCurrentPosition(position);
+            MainNavigator.build(getActivity()).openCatholicDominica(position);
         });
+        viewModel.getNextSundayLD().observe(this, this::setSunday);
+        viewModel.getCantatasLD().observe(this, this::setCantatas);
         return binding.getRoot();
     }
 
@@ -74,16 +83,20 @@ public class HomeFragment extends Fragment {
     }
 
     private HomeFragment setPositionParameter(int position) {
-        Bundle args = new Bundle();
-        args.putInt(POSITION_PARAMETER, position);
-        this.setArguments(args);
+        this.setArguments(HomeFragment.createBundle(position));
         return this;
+    }
+
+    private static Bundle createBundle(int position) {
+        Bundle args = new Bundle();
+        args.putInt(PARAMETER_POSITION, position);
+        return args;
     }
 
     private int getPositionParameter() {
         Bundle args = getArguments();
         if (args != null) {
-            return args.getInt(POSITION_PARAMETER, 0);
+            return args.getInt(PARAMETER_POSITION, 0);
         }
         else {
             return 0;

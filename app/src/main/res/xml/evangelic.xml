@@ -29,7 +29,7 @@
     <Evangelic Key="JUDICA" Name="4. Fastensonntag (Judica)" />;
     <Evangelic Key="PALMARUM" Name="Palmsonntag (Palmarum)" />
     <Evangelic Key="GOOD_FRIDAY" Name="Karfreitag" />
-    <Evangelic Key="EASTER_SUNDAY," Name="Ostersonntag" />
+    <Evangelic Key="EASTER_SUNDAY" Name="Ostersonntag" />
     <Evangelic Key="EASTER_MONDAY" Name="Ostermontag" />
     <Evangelic Key="EASTER_TUESDAY" Name="Osterdienstag" />
     <Evangelic Key="QUASIMODOGENITI" Name="1. Sonntag nach Ostern (Quasimodogeniti)" />
@@ -78,7 +78,6 @@
     <Evangelic Key="REFORMATION" Name="Reformationstag" />
     <Evangelic Key="FUNERAL" Name="Begräbnisfeier" />
     <Evangelic Key="WEDDING" Name="Hochzeit" />
-    <Evangelic Key="RATSWAHL" Name="Ratswahl" />
-    <Evangelic Key="OTHER" Name="Andere" />
-    <Evangelic Key="UNKNOWN" Name="Unbestimmt" />
+    <Evangelic Key="RATSWECHSEL" Name="Ratswechsel" />
+    <Evangelic Key="UNKNOWN" Name="Unbekannt" />
 </EvangelicCalendar>

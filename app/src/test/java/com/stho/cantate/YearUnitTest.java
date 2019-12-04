@@ -29,7 +29,7 @@ public class YearUnitTest {
 
     @Test
     public void liturgicalYear_isCorrect() {
-        @CatholicLiturgicalYearAnnotation.Year String y = Algorithms.getLiturgicalYear(2019, 200,  Algorithms.getDate(2019, 12, 1));
+        @CatholicLiturgicalYearAnnotation.Year int y = Algorithms.getLiturgicalYear(2019, 200,  Algorithms.getDate(2019, 12, 1));
         Assert.assertEquals(CatholicLiturgicalYearAnnotation.C, y);
      }
 }

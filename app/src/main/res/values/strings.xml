@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Cantate</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_search">Search</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_cantate">Cantate</string>
+    <string name="title_catholic_dominica">Dominica</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -17,5 +19,14 @@
     <string name="label_liturgical_year">Lesejahr</string>
     <string name="label_introitus">Introitus</string>
     <string name="label_communio">Communio</string>
+    <string name="label_no">No</string>
+    <string name="label_lyrics_filter">Lyrics:</string>
+    <string name="label_voices_filter">Voices (S,A,T,B):</string>
+    <string name="label_instrumentation_filter">Instrumentation:</string>
+    <string name="label_bwv_filter">BWV:</string>
+    <string name="label_hint_lyrics_filter">Enter any search text to search for in lyrics and title...</string>
+    <string name="label_hint_voices_filter">Enter any voices...</string>
+    <string name="label_hint_instrumentation_filter">Enter any instrumentation...</string>
+    <string name="label_hint_bwv_filter">Enter any bwv...</string>
 </resources>
 

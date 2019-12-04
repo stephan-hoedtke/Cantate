@@ -1,8 +1,8 @@
 package com.stho.cantate;
 
 import android.content.res.XmlResourceParser;
+import android.database.sqlite.SQLiteDatabase;
 import android.util.SparseArray;
-import android.util.SparseIntArray;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -14,21 +14,41 @@ import java.util.HashMap;
 class Data {
 
     private final Cantatas cantatas = new Cantatas();
-    private final HashMap<String, EvangelicSunday> evangelic = new HashMap<>();
-    private final HashMap<String, CatholicDominica> catholic = new HashMap<>();
+    private final SparseArray<EvangelicSunday> evangelic = new SparseArray<>();
+    private final SparseArray<CatholicDominica> catholic = new SparseArray<>();
     private final SparseArray<Year> years = new SparseArray<>(); // year --> Year
 
     Data() {
         // Empty
     }
 
-    Data prepareCantatas(XmlResourceParser xrp)  {
+    Data prepareCantatas(CantateSqliteHelper hlp) {
         try {
-            new CantatasXmlParser(cantatas).process(xrp);
-        } catch (IOException | XmlPullParserException e) {
-            e.printStackTrace();
+            SQLiteDatabase db = hlp.getReadableDatabase();
+            CantateSqliteAdapter adapter = new CantateSqliteAdapter(db);
+            adapter.fetchCantatas(cantatas);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            throw new RuntimeException("Cannot read cantate from database", ex);
         }
         return this;
+    }
+
+    Cantate prepareCantate(CantateSqliteHelper hlp, String bwv) {
+        Cantate cantate = cantatas.getCantate(bwv);
+        if (!cantate.getIsReady()) {
+            try {
+                SQLiteDatabase db = hlp.getReadableDatabase();
+                CantateSqliteAdapter adapter = new CantateSqliteAdapter(db);
+                adapter.fetchTracks(cantate);
+                adapter.fetchRemarks(cantate);
+                cantate.setIsReady();
+            } catch (Exception ex) {
+                ex.printStackTrace();
+                throw new RuntimeException("Cannot read tracks or remarks from database", ex);
+            }
+        }
+        return cantate;
     }
 
     Data prepareCatholic(XmlResourceParser xrp) {
@@ -89,11 +109,19 @@ class Data {
         if (sunday != null) {
             EvangelicSunday evangelicSunday = sunday.getEvangelicSunday();
             if (evangelicSunday != null) {
-                @SundayAnnotation.Sunday String key = evangelicSunday.getKey();
+                @EvangelicSundayAnnotation.Sunday int key = evangelicSunday.getKey();
                 return cantatas.getCantatasFor(key);
             }
         }
         return null;
+    }
+
+    Cantate getCantate(String bwv) {
+        return cantatas.getCantate(bwv);
+    }
+
+    EvangelicSunday getEvangelicSunday(@EvangelicSundayAnnotation.Sunday int key) {
+        return evangelic.get(key);
     }
 }
 

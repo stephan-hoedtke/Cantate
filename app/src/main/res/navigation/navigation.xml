@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.stho.cantate.ui.HomeContainerFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home_container" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.stho.cantate.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.stho.cantate.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_cantate"
+        android:name="com.stho.cantate.ui.CantateFragment"
+        android:label="@string/title_cantate"
+        tools:layout="@layout/fragment_cantate">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_catholic_dominica"
+        android:name="com.stho.cantate.ui.CatholicDominicaFragment"
+        android:label="@string/title_catholic_dominica"
+        tools:layout="@layout/fragment_catholic_dominica" />
+
+</navigation>

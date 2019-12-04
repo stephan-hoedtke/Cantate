@@ -1,5 +1,7 @@
 package com.stho.cantate;
 
+import android.util.SparseArray;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -11,9 +13,9 @@ import java.util.HashMap;
  */
 class EvangelicXmlParser {
 
-    private final HashMap<String, EvangelicSunday> evangelic;
+    private final SparseArray<EvangelicSunday> evangelic;
 
-    EvangelicXmlParser(HashMap<String, EvangelicSunday> evangelic) {
+    EvangelicXmlParser(SparseArray<EvangelicSunday> evangelic) {
         this.evangelic = evangelic;
     }
 
@@ -30,10 +32,11 @@ class EvangelicXmlParser {
                     if (isEvangelic(tag)) {
                         String key = getAttributeValue(parser, "Key");
                         String name = getAttributeValue(parser, "Name");
-                        currentSunday = evangelic.get(key);
+                        @EvangelicSundayAnnotation.Sunday int sunday = EvangelicSundayAnnotation.fromName(key);
+                        currentSunday = evangelic.get(sunday);
                         if (currentSunday == null) {
-                            currentSunday = new EvangelicSunday(key, name);
-                            evangelic.put(key, currentSunday);
+                            currentSunday = new EvangelicSunday(sunday, name);
+                            evangelic.put(sunday, currentSunday);
                         }
                     }
                     break;

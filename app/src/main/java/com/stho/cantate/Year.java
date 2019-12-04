@@ -9,8 +9,8 @@ import java.util.HashMap;
 public class Year {
 
     final int year;
-    private final SparseArray<String> evangelicYear;
-    private final SparseArray<String> catholicYear;
+    private final SparseIntArray mapSundayByDayInYear;
+    private final SparseIntArray mapDominicaByDayInYear;
     final Calendar advent;
     final Calendar christmas;
     final Calendar allerHeiligen;
@@ -26,18 +26,18 @@ public class Year {
     final Calendar trinity;
     final SparseArray<Sunday> sundays;
 
-    static Year fromDate(HashMap<String, EvangelicSunday> evangelic, HashMap<String, CatholicDominica> catholic, Calendar date) {
+    static Year fromDate(SparseArray<EvangelicSunday> evangelic, SparseArray<CatholicDominica> catholic, Calendar date) {
         return new Year(evangelic, catholic, date.get(Calendar.YEAR));
     }
 
-    static Year fromYear( HashMap<String, EvangelicSunday> evangelic, HashMap<String, CatholicDominica> catholic, int year) {
+    static Year fromYear(SparseArray<EvangelicSunday> evangelic, SparseArray<CatholicDominica> catholic, int year) {
         return new Year(evangelic, catholic, year);
     }
 
     /*
         Calculation is based on calendar years, not on church year
      */
-    private Year( HashMap<String, EvangelicSunday> evangelic, HashMap<String, CatholicDominica> catholic, int year) {
+    private Year(final SparseArray<EvangelicSunday> evangelic, final SparseArray<CatholicDominica> catholic, int year) {
         this.year = year;
 
         this.newYear = Algorithms.getDate(year, Calendar.JANUARY, 1);
@@ -54,8 +54,8 @@ public class Year {
         this.trinity = Algorithms.addWeeks(easter, 8);
         this.advent = Algorithms.addWeeks(Algorithms.getSundayBeforeExclusive(christmas), -3);
 
-        this.evangelicYear = EvangelicYear.getMap(this);
-        this.catholicYear = CatholicYear.getMap(this);
+        this.mapSundayByDayInYear = EvangelicYear.getMap(this);
+        this.mapDominicaByDayInYear = CatholicYear.getMap(this);
 
         this.sundays = prepareSundays(evangelic, catholic);
     }
@@ -63,19 +63,19 @@ public class Year {
     /*
       Must not be invoked before the year was initialized
      */
-    private SparseArray<Sunday> prepareSundays(HashMap<String, EvangelicSunday> evangelic, HashMap<String, CatholicDominica> catholic) {
+    private SparseArray<Sunday> prepareSundays(final SparseArray<EvangelicSunday> evangelic, final SparseArray<CatholicDominica> catholic) {
         final SparseArray<Sunday> sundays = new SparseArray<>();
 
-        for (int index=0; index < evangelicYear.size(); index++) {
-            int day = evangelicYear.keyAt(index);
-            @SundayAnnotation.Sunday String key = evangelicYear.valueAt(index);
+        for (int index = 0; index < mapSundayByDayInYear.size(); index++) {
+            int day = mapSundayByDayInYear.keyAt(index);
+            @EvangelicSundayAnnotation.Sunday int key = mapSundayByDayInYear.valueAt(index);
             Sunday sunday = getSundayFor(sundays, day, year);
             sunday.setEvangelicSunday(evangelic.get(key));
         }
 
-        for (int index=0; index < catholicYear.size(); index++) {
-            int day = catholicYear.keyAt(index);
-            @DominicaAnnotation.Dominica String key = catholicYear.valueAt(index);
+        for (int index = 0; index < mapDominicaByDayInYear.size(); index++) {
+            int day = mapDominicaByDayInYear.keyAt(index);
+            @CatholicDominicaAnnotation.Dominica int key = mapDominicaByDayInYear.valueAt(index);
             Sunday sunday = getSundayFor(sundays, day, year);
             sunday.setCatholicDominica(catholic.get(key));
         }
@@ -99,14 +99,16 @@ public class Year {
         return getNextMusicDayInYear(dayInYear);
     }
 
+    private static int NOT_FOUND = -1;
+
     int getNextMusicDayInYear(int dayInYear) {
         while (dayInYear <= 366) {
-            @SundayAnnotation.Sunday String musicDay = evangelicYear.get(dayInYear, null);
-            if (musicDay != null) {
+            @EvangelicSundayAnnotation.Sunday int musicDay = mapSundayByDayInYear.get(dayInYear, NOT_FOUND);
+            if (musicDay > 0) {
                 return dayInYear;
             }
-            @DominicaAnnotation.Dominica String dominica = catholicYear.get(dayInYear, null);
-            if (dominica != null) {
+            @CatholicDominicaAnnotation.Dominica int dominica = mapDominicaByDayInYear.get(dayInYear, NOT_FOUND);
+            if (dominica > 0) {
                 return dayInYear;
             }
             dayInYear++;
@@ -121,12 +123,12 @@ public class Year {
 
     int getPreviousMusicDayInYear(int dayInYear) {
         while (dayInYear >= 0) {
-            @SundayAnnotation.Sunday String musicDay = evangelicYear.get(dayInYear, null);
-            if (musicDay != null) {
+            @EvangelicSundayAnnotation.Sunday int musicDay = mapSundayByDayInYear.get(dayInYear, NOT_FOUND);
+            if (musicDay > 0) {
                 return dayInYear;
             }
-            @DominicaAnnotation.Dominica String dominica = catholicYear.get(dayInYear, null);
-            if (dominica != null) {
+            @CatholicDominicaAnnotation.Dominica int dominica = mapDominicaByDayInYear.get(dayInYear, NOT_FOUND);
+            if (dominica > 0) {
                 return dayInYear;
             }
             dayInYear--;

@@ -1,29 +1,30 @@
 package com.stho.cantate;
 
-import android.content.res.Resources;
-import android.content.res.XmlResourceParser;
-import android.util.SparseArray;
-
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 
-import org.xmlpull.v1.XmlPullParserException;
-
-import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Locale;
 
 public class MainViewModel extends ViewModel {
 
     private Data data = null;
     private Day reference = null;
 
+    private final MutableLiveData<Integer> currentPositionLiveData = new MutableLiveData<>();
+
     public MainViewModel() {
+        currentPositionLiveData.setValue(HomePagerAdapter.START_POSITION);
+    }
+
+    public LiveData<Integer> getCurrentPositionLD() { return currentPositionLiveData; }
+
+    public int getCurrentPosition() {
+        return currentPositionLiveData.getValue();
+    }
+
+    public void setCurrentPosition(int position) {
+        currentPositionLiveData.postValue(position);
     }
 
     boolean isNotPrepared() {
@@ -32,6 +33,10 @@ public class MainViewModel extends ViewModel {
 
     void prepare(Data data) {
         this.data = data;
+    }
+
+    public Cantate prepareCantate(CantateSqliteHelper hlp, String bwv) {
+        return data.prepareCantate(hlp, bwv);
     }
 
     Day getDay(int position) {
@@ -54,6 +59,9 @@ public class MainViewModel extends ViewModel {
         return null;
     }
 
+    Data getData() {
+        return data;
+    }
 
 }
 

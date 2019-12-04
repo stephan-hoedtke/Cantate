@@ -10,9 +10,9 @@ public class Sunday {
     private final Calendar date;
     private EvangelicSunday evangelicSunday;
     private CatholicDominica catholicDominica;
-    private @CatholicLiturgicalYearAnnotation.Year String catholicLiturgicalYear;
+    private @CatholicLiturgicalYearAnnotation.Year int catholicLiturgicalYear;
 
-    Sunday(int year, int dayOfYear, @CatholicLiturgicalYearAnnotation.Year String catholicLiturgicalYear) {
+    Sunday(int year, int dayOfYear, @CatholicLiturgicalYearAnnotation.Year int catholicLiturgicalYear) {
         this.year = year;
         this.dayOfYear = dayOfYear;
         this.date = Algorithms.getDate(year, dayOfYear);
@@ -50,8 +50,9 @@ public class Sunday {
         return catholicDominica;
     }
 
-    public @CatholicLiturgicalYearAnnotation.Year String getCatholicLiturgicalYear() { return catholicLiturgicalYear; }
+    public @CatholicLiturgicalYearAnnotation.Year int getCatholicLiturgicalYear() { return catholicLiturgicalYear; }
 
+    public String getCatholicLiturgicalYearAsString() { return CatholicLiturgicalYearAnnotation.toString(catholicLiturgicalYear); }
 
     void setEvangelicSunday(EvangelicSunday evangelicSunday) {
         this.evangelicSunday = evangelicSunday;

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <data>
+        <variable
+            name="viewModel"
+            type="com.stho.cantate.ui.search.SearchViewModel" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/buttonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_search_category_default"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/title_search"
+                />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.3" />
+
+            <TextView
+                android:id="@+id/labelBwvFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/label_bwv_filter"
+                />
+
+            <EditText
+                android:id="@+id/editBwvFilter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/labelBwvFilter"
+                app:layout_constraintStart_toEndOf="@id/guideline"
+                app:layout_constraintEnd_toStartOf="@id/buttonSearch"
+                android:text="@{viewModel.getBwvFilter(), default=`61`}"
+                android:inputType="text"
+                android:hint="@string/label_hint_bwv_filter"
+                android:importantForAutofill="no"
+                />
+
+            <TextView
+                android:id="@+id/labelVoicesFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                app:layout_constraintTop_toBottomOf="@id/editBwvFilter"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/label_voices_filter"
+                />
+
+            <EditText
+                android:id="@+id/editVoicesFilter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/labelVoicesFilter"
+                app:layout_constraintStart_toEndOf="@id/guideline"
+                app:layout_constraintEnd_toStartOf="@id/buttonSearch"
+                android:text="@{viewModel.getVoicesFilter(), default=`T`}"
+                android:inputType="text"
+                android:hint="@string/label_hint_voices_filter"
+                android:importantForAutofill="no"
+                />
+
+            <TextView
+                android:id="@+id/labelInstrumentationFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                app:layout_constraintTop_toBottomOf="@id/editVoicesFilter"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/label_instrumentation_filter"
+                />
+
+            <EditText
+                android:id="@+id/editInstrumentationFilter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/labelInstrumentationFilter"
+                app:layout_constraintStart_toEndOf="@id/guideline"
+                app:layout_constraintEnd_toStartOf="@id/buttonSearch"
+                android:text="@{viewModel.getInstrumentationFilter(), default=`Viola`}"
+                android:inputType="text"
+                android:hint="@string/label_hint_instrumentation_filter"
+                android:importantForAutofill="no"
+                />
+
+            <TextView
+                android:id="@+id/labelLyricsFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/editInstrumentationFilter"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/label_lyrics_filter"
+                />
+
+            <EditText
+                android:id="@+id/editLyricsFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/labelLyricsFilter"
+                android:text="@{viewModel.getLyricsFilter(), default=`Bekümmern`}"
+                android:inputType="text"
+                android:hint="@string/label_hint_lyrics_filter"
+                android:importantForAutofill="no"
+                />
+
+
+            <!-- List of SearchTrackResult ... -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                app:layout_constraintTop_toBottomOf="@id/editLyricsFilter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

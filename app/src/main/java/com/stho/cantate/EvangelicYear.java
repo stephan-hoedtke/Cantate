@@ -1,20 +1,17 @@
 package com.stho.cantate;
 
-import android.annotation.SuppressLint;
-import android.util.SparseArray;
 import android.util.SparseIntArray;
 
 import java.util.Calendar;
-import java.util.HashMap;
 
 class EvangelicYear {
 
     private final Year year;
-    private final SparseArray<String> map = new SparseArray<>();
+    private final SparseIntArray mapSundayByDayInYear = new SparseIntArray();
 
-    static SparseArray<String> getMap(Year year) {
+    static SparseIntArray getMap(Year year) {
         EvangelicYear calculator = new EvangelicYear(year);
-        return calculator.map;
+        return calculator.mapSundayByDayInYear;
     }
 
     private EvangelicYear(Year year) {
@@ -34,20 +31,20 @@ class EvangelicYear {
     }
 
     private void initializeMapNewYear() {
-        put(year.newYear, SundayAnnotation.NEW_YEAR);
-        put(Algorithms.getSundayAfterExclusive(year.newYear), SundayAnnotation.AFTER_NEW_YEAR);
-        put(year.epiphany, SundayAnnotation.EPIPHANY);
+        put(year.newYear, EvangelicSundayAnnotation.NEW_YEAR);
+        put(Algorithms.getSundayAfterExclusive(year.newYear), EvangelicSundayAnnotation.AFTER_NEW_YEAR);
+        put(year.epiphany, EvangelicSundayAnnotation.EPIPHANY);
     }
 
     private void initializeMapAfterEpiphany() {
         int day = Algorithms.getSundayAfterExclusive(year.epiphany).get(Calendar.DAY_OF_YEAR);
-        @SundayAnnotation.Sunday String[] sundays = new String[] {
-                SundayAnnotation.EPIPHANY_I,
-                SundayAnnotation.EPIPHANY_II,
-                SundayAnnotation.EPIPHANY_III,
-                SundayAnnotation.EPIPHANY_IV,
-                SundayAnnotation.EPIPHANY_V,
-                SundayAnnotation.EPIPHANY_VI,
+        @EvangelicSundayAnnotation.Sunday int[] sundays = new int[] {
+                EvangelicSundayAnnotation.EPIPHANY_I,
+                EvangelicSundayAnnotation.EPIPHANY_II,
+                EvangelicSundayAnnotation.EPIPHANY_III,
+                EvangelicSundayAnnotation.EPIPHANY_IV,
+                EvangelicSundayAnnotation.EPIPHANY_V,
+                EvangelicSundayAnnotation.EPIPHANY_VI,
         };
         for (int i=0; i < 6; i++) {
             put(day, sundays[i]);
@@ -57,63 +54,63 @@ class EvangelicYear {
 
     private void initializeMapEaster() {
         int day = year.easter.get(Calendar.DAY_OF_YEAR);
-        put(day - 63, SundayAnnotation.SEPTUAGESIMA);
-        put(day - 56, SundayAnnotation.SEXAGESIMA);
-        put(day - 49, SundayAnnotation.ESTOMIHI);
-        put(day - 46, SundayAnnotation.ASH_WEDNESDAY);
-        put(day - 42, SundayAnnotation.INVOCABIT);
-        put(day - 35, SundayAnnotation.REMINISCERE);
-        put(day - 28, SundayAnnotation.OCULI);
-        put(day - 21, SundayAnnotation.LAETARE);
-        put(day - 14, SundayAnnotation.JUDICA);
-        put(day - 7, SundayAnnotation.PALMARUM);
-        put(day - 2, SundayAnnotation.GOOD_FRIDAY);
-        put(day, SundayAnnotation.EASTER_SUNDAY);
-        put(day + 1, SundayAnnotation.EASTER_MONDAY);
-        put(day + 2, SundayAnnotation.EASTER_TUESDAY);
-        put(day + 7, SundayAnnotation.QUASIMODOGENITI);
-        put(day + 14, SundayAnnotation.MISERICORDIAS);
-        put(day + 21, SundayAnnotation.JUBILATE);
-        put(day + 28, SundayAnnotation.CANTATE);
-        put(day + 35, SundayAnnotation.ROGATE);
-        put(day + 39, SundayAnnotation.ASCENSION);
-        put(day + 42, SundayAnnotation.EXAUDI);
-        put(day + 49, SundayAnnotation.PENTECOST_SUNDAY);
-        put(day + 50, SundayAnnotation.PENTECOST_MONDAY);
-        put(day + 51, SundayAnnotation.PENTECOST_TUESDAY);
-        put(day + 56, SundayAnnotation.TRINITY);
+        put(day - 63, EvangelicSundayAnnotation.SEPTUAGESIMA);
+        put(day - 56, EvangelicSundayAnnotation.SEXAGESIMA);
+        put(day - 49, EvangelicSundayAnnotation.ESTOMIHI);
+        put(day - 46, EvangelicSundayAnnotation.ASH_WEDNESDAY);
+        put(day - 42, EvangelicSundayAnnotation.INVOCABIT);
+        put(day - 35, EvangelicSundayAnnotation.REMINISCERE);
+        put(day - 28, EvangelicSundayAnnotation.OCULI);
+        put(day - 21, EvangelicSundayAnnotation.LAETARE);
+        put(day - 14, EvangelicSundayAnnotation.JUDICA);
+        put(day - 7, EvangelicSundayAnnotation.PALMARUM);
+        put(day - 2, EvangelicSundayAnnotation.GOOD_FRIDAY);
+        put(day, EvangelicSundayAnnotation.EASTER_SUNDAY);
+        put(day + 1, EvangelicSundayAnnotation.EASTER_MONDAY);
+        put(day + 2, EvangelicSundayAnnotation.EASTER_TUESDAY);
+        put(day + 7, EvangelicSundayAnnotation.QUASIMODOGENITI);
+        put(day + 14, EvangelicSundayAnnotation.MISERICORDIAS);
+        put(day + 21, EvangelicSundayAnnotation.JUBILATE);
+        put(day + 28, EvangelicSundayAnnotation.CANTATE);
+        put(day + 35, EvangelicSundayAnnotation.ROGATE);
+        put(day + 39, EvangelicSundayAnnotation.ASCENSION);
+        put(day + 42, EvangelicSundayAnnotation.EXAUDI);
+        put(day + 49, EvangelicSundayAnnotation.PENTECOST_SUNDAY);
+        put(day + 50, EvangelicSundayAnnotation.PENTECOST_MONDAY);
+        put(day + 51, EvangelicSundayAnnotation.PENTECOST_TUESDAY);
+        put(day + 56, EvangelicSundayAnnotation.TRINITY);
     }
 
     private void initializeMapAfterTrinity() {
         int day = Algorithms.getSundayAfterExclusive(year.trinity).get(Calendar.DAY_OF_YEAR);
-        @SundayAnnotation.Sunday String[] sundays = new String[] {
-                SundayAnnotation.TRINITY_I,
-                SundayAnnotation.TRINITY_II,
-                SundayAnnotation.TRINITY_III,
-                SundayAnnotation.TRINITY_IV,
-                SundayAnnotation.TRINITY_V,
-                SundayAnnotation.TRINITY_VI,
-                SundayAnnotation.TRINITY_VII,
-                SundayAnnotation.TRINITY_VIII,
-                SundayAnnotation.TRINITY_IX,
-                SundayAnnotation.TRINITY_X,
-                SundayAnnotation.TRINITY_XI,
-                SundayAnnotation.TRINITY_XII,
-                SundayAnnotation.TRINITY_XIII,
-                SundayAnnotation.TRINITY_XIV,
-                SundayAnnotation.TRINITY_XV,
-                SundayAnnotation.TRINITY_XVI,
-                SundayAnnotation.TRINITY_XVII,
-                SundayAnnotation.TRINITY_XVIII,
-                SundayAnnotation.TRINITY_XIX,
-                SundayAnnotation.TRINITY_XX,
-                SundayAnnotation.TRINITY_XXI,
-                SundayAnnotation.TRINITY_XXII,
-                SundayAnnotation.TRINITY_XXIII,
-                SundayAnnotation.TRINITY_XXIV,
-                SundayAnnotation.TRINITY_XXV,
-                SundayAnnotation.TRINITY_XXVI,
-                SundayAnnotation.TRINITY_XXVII,
+        @EvangelicSundayAnnotation.Sunday int[] sundays = new int[] {
+                EvangelicSundayAnnotation.TRINITY_I,
+                EvangelicSundayAnnotation.TRINITY_II,
+                EvangelicSundayAnnotation.TRINITY_III,
+                EvangelicSundayAnnotation.TRINITY_IV,
+                EvangelicSundayAnnotation.TRINITY_V,
+                EvangelicSundayAnnotation.TRINITY_VI,
+                EvangelicSundayAnnotation.TRINITY_VII,
+                EvangelicSundayAnnotation.TRINITY_VIII,
+                EvangelicSundayAnnotation.TRINITY_IX,
+                EvangelicSundayAnnotation.TRINITY_X,
+                EvangelicSundayAnnotation.TRINITY_XI,
+                EvangelicSundayAnnotation.TRINITY_XII,
+                EvangelicSundayAnnotation.TRINITY_XIII,
+                EvangelicSundayAnnotation.TRINITY_XIV,
+                EvangelicSundayAnnotation.TRINITY_XV,
+                EvangelicSundayAnnotation.TRINITY_XVI,
+                EvangelicSundayAnnotation.TRINITY_XVII,
+                EvangelicSundayAnnotation.TRINITY_XVIII,
+                EvangelicSundayAnnotation.TRINITY_XIX,
+                EvangelicSundayAnnotation.TRINITY_XX,
+                EvangelicSundayAnnotation.TRINITY_XXI,
+                EvangelicSundayAnnotation.TRINITY_XXII,
+                EvangelicSundayAnnotation.TRINITY_XXIII,
+                EvangelicSundayAnnotation.TRINITY_XXIV,
+                EvangelicSundayAnnotation.TRINITY_XXV,
+                EvangelicSundayAnnotation.TRINITY_XXVI,
+                EvangelicSundayAnnotation.TRINITY_XXVII,
         };
         for (int i=0; i < 27; i++) {
             put(day, sundays[i]);
@@ -123,35 +120,35 @@ class EvangelicYear {
 
     private void initializeMapAdvent() {
         int day = year.advent.get(Calendar.DAY_OF_YEAR);
-        put(day, SundayAnnotation.ADVENT_I);
-        put(day + 7, SundayAnnotation.ADVENT_II);
-        put(day + 14, SundayAnnotation.ADVENT_III);
-        put(day + 21, SundayAnnotation.ADVENT_IV);
+        put(day, EvangelicSundayAnnotation.ADVENT_I);
+        put(day + 7, EvangelicSundayAnnotation.ADVENT_II);
+        put(day + 14, EvangelicSundayAnnotation.ADVENT_III);
+        put(day + 21, EvangelicSundayAnnotation.ADVENT_IV);
     }
 
     private void initializeMapSundayAfterChristmas() {
-        put(Algorithms.getSundayAfterExclusive(year.christmas), SundayAnnotation.AFTER_CHRISTMAS);
+        put(Algorithms.getSundayAfterExclusive(year.christmas), EvangelicSundayAnnotation.AFTER_CHRISTMAS);
     }
 
     private void initializeMapChristmas() {
         int day = year.christmas.get(Calendar.DAY_OF_YEAR);
-        put(day, SundayAnnotation.CHRISTMAS_DAY_1);
-        put(day + 1, SundayAnnotation.CHRISTMAS_DAY_2);
-        put(day + 2, SundayAnnotation.CHRISTMAS_DAY_3);
+        put(day, EvangelicSundayAnnotation.CHRISTMAS_DAY_1);
+        put(day + 1, EvangelicSundayAnnotation.CHRISTMAS_DAY_2);
+        put(day + 2, EvangelicSundayAnnotation.CHRISTMAS_DAY_3);
     }
 
     private void initializeMapOthers() {
-        put(year.johannis, SundayAnnotation.JOHANNIS);
-        put(year.michaelis, SundayAnnotation.MICHAELIS);
-        put(year.reformation, SundayAnnotation.REFORMATION);
+        put(year.johannis, EvangelicSundayAnnotation.JOHANNIS);
+        put(year.michaelis, EvangelicSundayAnnotation.MICHAELIS);
+        put(year.reformation, EvangelicSundayAnnotation.REFORMATION);
     }
 
-    private void put(Calendar date, @SundayAnnotation.Sunday String sunday) {
-        map.put(date.get(Calendar.DAY_OF_YEAR), sunday);
+    private void put(Calendar date, @EvangelicSundayAnnotation.Sunday int sunday) {
+        mapSundayByDayInYear.put(date.get(Calendar.DAY_OF_YEAR), sunday);
     }
 
-    private void put(int day, @SundayAnnotation.Sunday String sunday) {
-        map.put(day, sunday);
+    private void put(int day, @EvangelicSundayAnnotation.Sunday int sunday) {
+        mapSundayByDayInYear.put(day, sunday);
     }
 
 }

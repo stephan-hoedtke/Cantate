@@ -80,7 +80,7 @@
                     android:textColor="@color/colorFaint"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    android:text="@{occasion.getCatholicLiturgicalYear(), default=`A`}"
+                    android:text="@{occasion.getCatholicLiturgicalYearAsString(), default=`A`}"
                     />
 
                 <TextView
@@ -113,21 +113,10 @@
                     app:layout_constraintTop_toBottomOf="@id/textViewDominica"
                     app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@color/colorIntroitus"
-                    android:text="@{dominica.getIntroitus(occasion.getCatholicLiturgicalYear()), default=`Ad te levavi anima mea`}"
+                    android:text="@{dominica.getIntroitusAbbreviation(occasion.getCatholicLiturgicalYear()), default=`Ad te levavi anima mea`}"
                     />
 
-                <TextView
-                    android:id="@+id/textViewCommunio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    app:layout_constraintTop_toBottomOf="@id/textViewIntroitus"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:textColor="@color/colorCommunio"
-                    android:text="@{dominica.getCommunio(occasion.getCatholicLiturgicalYear()), default=`Lux aeterna luceat eis Domine et sanctus tuus in aeternum quia pius es`}"
-                    />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
+             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.recyclerview.widget.RecyclerView
@@ -142,5 +131,6 @@
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </layout>
 

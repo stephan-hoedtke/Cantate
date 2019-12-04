@@ -1,5 +1,7 @@
 package com.stho.cantate;
 
+import android.util.SparseArray;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -11,9 +13,9 @@ import java.util.HashMap;
  */
 class CatholicXmlParser {
 
-    private final HashMap<String, CatholicDominica> catholic;
+    private final SparseArray<CatholicDominica> catholic;
 
-    CatholicXmlParser(HashMap<String, CatholicDominica> catholic) {
+    CatholicXmlParser(SparseArray<CatholicDominica> catholic) {
         this.catholic = catholic;
     }
 
@@ -21,7 +23,7 @@ class CatholicXmlParser {
         int eventType = parser.getEventType();
         CatholicDominica currentDominica = null;
         String tag = null;
-        @DominicaAnnotation.Dominica String year = null;
+        String year = null;
 
         while (eventType != XmlPullParser.END_DOCUMENT) {
 
@@ -33,17 +35,18 @@ class CatholicXmlParser {
                         String name = getAttributeValue(parser, "Name");
                         String tempus = getAttributeValue(parser, "Tempus");
                         String friendlyName = getAttributeValue(parser, "FriendlyName");
-                        currentDominica = catholic.get(key);
+                        @CatholicDominicaAnnotation.Dominica int dominica = CatholicDominicaAnnotation.fromName(key);
+                        currentDominica = catholic.get(dominica);
                         if (currentDominica == null) {
-                            currentDominica = new CatholicDominica(key, name, tempus);
-                            catholic.put(key, currentDominica);
+                            currentDominica = new CatholicDominica(dominica, name, tempus);
+                            catholic.put(dominica, currentDominica);
                         }
                         if (friendlyName != null) {
                             currentDominica.setFriendlyName(friendlyName);
                         }
                     }
-                    if (isIntroitus(tag)) {
-                       year = getAttributeValue(parser, "Year");
+                    if (isIntroitus(tag) || isCommunio(tag)) {
+                       year = getAttributeValue(parser, "Anno");
                     }
                     break;
 
@@ -55,7 +58,8 @@ class CatholicXmlParser {
                             currentDominica.setCommunio(parser.getText(), year);
                         } else if (isLink(tag)) {
                             currentDominica.setLink(parser.getText());
-                        }
+                        } else if (isGraduale(tag) || isAntiphon(tag) || isVaria(tag) || isTractus(tag) ||isAlleluia(tag))
+                            currentDominica.setOthers(tag, parser.getText());
                     }
                     break;
 
@@ -69,22 +73,41 @@ class CatholicXmlParser {
         }
     }
 
-    private boolean isCatholic(String name) {
-        return ("Catholic".equalsIgnoreCase(name));
+    private boolean isCatholic(String tag) {
+        return "Catholic".equalsIgnoreCase(tag);
     }
 
     private boolean isIntroitus(String tag) {
-        return ("Introitus".equalsIgnoreCase(tag));
+        return "Introitus".equalsIgnoreCase(tag);
     }
 
     private boolean isCommunio(String tag) {
-        return ("Communio".equalsIgnoreCase(tag));
+        return "Communio".equalsIgnoreCase(tag);
     }
 
     private boolean isLink(String tag) {
-        return ("Link".equalsIgnoreCase(tag));
+        return "Link".equalsIgnoreCase(tag);
     }
 
+    private boolean isGraduale(String tag) {
+        return "Graduale".equalsIgnoreCase(tag);
+    }
+
+    private boolean isTractus(String tag) {
+        return "Tractus".equalsIgnoreCase(tag);
+    }
+
+    private boolean isAntiphon(String tag) {
+        return "Antiphon".equalsIgnoreCase(tag);
+    }
+
+    private boolean isVaria(String tag) {
+        return "Varia".equalsIgnoreCase(tag);
+    }
+
+    private boolean isAlleluia(String tag) {
+        return "Alleluia".equalsIgnoreCase(tag);
+    }
 
     private String getAttributeValue(XmlPullParser parser, String attributeName) {
         for (int i = 0; i < parser.getAttributeCount(); i++) {
